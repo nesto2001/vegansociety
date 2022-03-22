@@ -1,0 +1,155 @@
+
+
+
+body {
+  background: #fafbf7;
+  color: #666;
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body .site {
+    background: url(../img/default/img-bg-front-orange-paint.jpg) center 140px/1920px auto no-repeat;
+}
+
+::selection {
+  background: #64b3a9;
+  color: #fff;
+  text-shadow: none;
+}
+
+.site-logo {
+  background: url(../img/logo-vegan-society-lrg.svg) 0 0 no-repeat;
+  background-size: 323px 112px;
+  width: 323px;
+  height: 112px;
+  max-width: 100%;
+}
+
+a {
+  color: #008375;
+  text-decoration: none;
+}
+.site-logo {
+  float: left;
+}
+
+.site-logo img {
+  display: block !important;
+  width: 100%;
+  height: 100%;
+}
+
+.site-header, .page-title, .page, .info-social, .site-footer, .hero {
+    position: relative;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    -moz-transform: translate3D(0,0,0);
+    -ms-transform: translate3D(0,0,0);
+    -webkit-transform: translate3D(0,0,0);
+    transform: translate3D(0,0,0);
+    left: 0;
+}
+
+.site-header {
+  position: fixed;
+  top: -30px;
+  width: 100%;
+  padding: 40px 0 10px;
+  color: #008375;
+  background: #fff;
+  -webkit-transform: skewY(-0.5deg) translate3d(0, 0, 0);
+  transform: skewY(-0.5deg) translate3d(0, 0, 0);
+  z-index: 20;
+}
+
+.site-header {
+  padding-bottom: 1.6em;
+}
+
+.site-header .tilted-container {
+    margin: 0 auto;
+    -webkit-transform: skewY(0.5deg) translate3d(0,0,0);
+    transform: skewY(0.5deg) translate3d(0,0,0);
+}
+
+.user-nav {
+  float: right;
+  margin-top: 1em;
+}
+
+.user-nav-inner {
+  display: inline-block;
+}
+
+.user-nav ul.site-nav-item {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.user-nav ul.site-nav-item li {
+  display: inline-block;
+  font-family: "MuseoSansCyrl-500", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.user-nav ul.site-nav-item li a {
+  padding: 0.5em 1.2em;
+  background-color: #008e84;
+  color: #fff;
+  border-radius: 3em;
+}
+
+.user-nav ul.site-nav-item li.nav-donate-btn a {
+  background-color: #f8991d;
+}
+
+.container {
+    zoom: 1;
+    max-width: 86em;
+    width: 86em;
+    padding-left: 4em;
+    padding-right: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.site-search {
+    width: 30px;
+    margin: 26px 0 0 1em;
+    float: right;
+}
+
+.site-search {
+    width: 33px;
+    margin: -0.3em 0 0 1em;
+    display: inline-block;
+}
+
+.site-search img {
+    width: 100%;
+    height: auto;
+}
+
+.page {
+    height: 1500px;
+}
+
+@media (prefers-reduced-motion: no-preference){
+    :root {
+        scroll-behavior: smooth;
+    }
+}
