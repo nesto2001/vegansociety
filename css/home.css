@@ -21,6 +21,12 @@ body .site {
     background: url(../img/default/img-bg-front-orange-paint.jpg) center 140px/1920px auto no-repeat;
 }
 
+ul, li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 ::selection {
   background: #64b3a9;
   color: #fff;
@@ -144,8 +150,84 @@ a {
     height: auto;
 }
 
+.site-header-nav {
+  position: absolute;
+  right: 4em;
+  bottom: -0.65em;
+}
+
+.megamenu-nav-collapse{
+  height: auto;
+  overflow: visible;
+}
+
+#site-header-megamenu-main-menu .header-megamenu {
+  background-color: transparent;
+}
+
+.header-megamenu{
+  position: relative;
+}
+
+.header-megamenu::before, .header-megamenu::after {
+  content: "";
+  display: table;
+  line-height: 0;
+}
+
+.header-megamenu .megamenu-nav>li>a {
+  display: block;
+}
+
+#site-header-megamenu-main-menu .header-megamenu .megamenu-nav>li>a {
+  border-right: none;
+  border-top: 0;
+  color: #008e84;
+  font-weight: 400;
+  padding: 0.4em 0.5em 0.5em;
+  text-shadow: none;
+}
+
+#site-header-megamenu-main-menu .header-megamenu .caret {
+  border: none;
+  background: transparent url(../img/default/ico-main-menu-chev-down.svg) left top/12px 11px no-repeat;
+  width: 12px;
+  height: 11px;
+  margin: 0.4em 0 0 0.2em;
+  display: inline-block;
+}
+
+#site-header-megamenu-main-menu ul.megamenu-nav {
+  display: flex;
+}
+
+#site-header-megamenu-main-menu ul.megamenu-nav>li {
+  font-family: "MuseoSansCyrl-700",Helvetica,Arial,sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+#site-header-megamenu-main-menu ul.megamenu-nav>li#vegantm {
+  width: 220px
+}
+
+#site-header-megamenu-main-menu ul.megamenu-nav>li#vegantm > a {
+  background: transparent url(../img/icon/ico-vegan.svg) right 1.3em center/auto 1.8em no-repeat;
+}
+
 .page {
-    height: 1500px;
+  padding: 60px 0;
+  height: 1500px;
+}
+
+.page-content-top{
+  margin: 6em -29px 2em;
+}
+
+.page-banner-left{
+  padding: 1em 29px 0;
+  width: 66.6667%;
+  display: inline-block;
 }
 
 @media (prefers-reduced-motion: no-preference){
