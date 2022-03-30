@@ -20,6 +20,12 @@ body .site {
     background: url(../img/default/img-bg-front-orange-paint.jpg) center 140px/1920px auto no-repeat;
 }
 
+.site{
+  width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
 ul, li{
   list-style: none;
   margin: 0;
@@ -44,6 +50,12 @@ a {
   color: #008375;
   text-decoration: none;
 }
+
+h1, h2 {
+  font-family: "Museo Slab 700",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+}
+
 .site-logo {
   float: left;
 }
@@ -216,7 +228,6 @@ a {
 
 .page {
   padding: 60px 0;
-  height: 1500px;
 }
 
 .page-content-top{
@@ -620,6 +631,247 @@ a.btn-link{
   font-size: 1.3em;
   padding: 0.127em 0.8037em 0.127em 1em;
 }
+
+.newsletter-signup{
+  padding-bottom: 8em;
+}
+
+.news-signup{
+  background-color: #fff;
+  border: 2px solid #f8991d;
+  color: #666;
+  padding: 0.8em 1.25em 1.5em 45%;
+  text-align: right;
+  background-image: url(../img/default/img-bg-newsletter-signup.webp);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: auto 98%;
+  font-size: 1.15em;
+  position: relative;
+  overflow: hidden;
+}
+
+.news-signup h2{
+  color: #f8991d;
+  font-size: 1.9em;
+  line-height: 1.2;
+  margin: 0.5em 0;
+  margin-top: 0;
+}
+
+.news-signup p{
+  max-width: 100%;
+  font-size: 1.1em;
+  margin: 0 0 1.5em;
+  line-height: 1.3;
+}
+
+.news-signup a.btn-link {
+  font-size: 1.1em;
+  float: right;
+}
+
+.newsletter-signup img.newsletter {
+  position: absolute;
+  left: 4%;
+  bottom: -7%;
+  height: 94%;
+  width: auto;
+  transform: rotate(-2deg);
+  box-shadow: -2px 0 20px 2px rgb(0 0 0 / 38%);
+}
+
+.site-footer{
+  background-color: #008375;
+  color: #fff;
+  margin-bottom: -1.5em;
+  text-align: center;
+  padding: 0 0 5em;
+  width: 100%;
+  -webkit-transform: skewY(-1.5deg) translate3d(0,0,0);
+  transform: skewY(-1.5deg) translate3d(0,0,0);
+}
+
+.site-footer .tilted-container {
+  margin: 0 auto;
+  -webkit-transform: skewY(1.5deg) translate3d(0,0,0);
+  transform: skewY(1.5deg) translate3d(0,0,0);
+  overflow: visible;
+}
+
+.social-media {
+  position: relative;
+  top: -25px;
+  margin: 0;
+}
+
+.social-media__icon.twitter, .social-media__icon.facebook,
+.social-media__icon.you-tube,
+.social-media__icon.instagram {
+  background-image: url(../img/default/social-s9d8c864714.webp);
+  background-repeat: no-repeat;
+}
+
+
+.social-media__icon {
+  border-radius: 25px;
+  display: inline-block;
+  text-align: center;
+  font-family: Helvetica,Arial,sans-serif;
+  background: #fff;
+  font-weight: 400;
+  color: #ff9e16;
+  width: 50px;
+  height: 50px;
+  padding-top: 12px;
+  text-transform: uppercase;
+  text-indent: -9999px;
+}
+
+
+.social-media__icon {
+  margin: 0 10px;
+  box-shadow: 0 2px 20px 0 rgb(0 0 0 / 30%);
+}
+
+
+.social-media__icon.twitter {
+  background-position: 0 -300px;
+}
+
+.social-media__icon.facebook {
+  background-position: 0 0;
+}
+
+.social-media__icon.you-tube {
+  background-position: 0 -400px;
+}
+
+.social-media__icon.instagram {
+  background-position: 0 -200px;
+}
+
+.social-media__icon.instagram:hover{
+  background-position: 0 -250px;
+}
+
+.social-media__icon.you-tube:hover{
+  background-position: 0 -450px;
+}
+
+.social-media__icon.facebook:hover{
+  background-position: 0 -50px;
+}
+
+.social-media__icon.twitter:hover{
+  background-position: 0 -350px;
+}
+
+.social-media__icon:hover {
+  text-decoration: none;
+  background-color: #ff9e16;
+  cursor: pointer;
+}
+
+.footer-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: .875em;
+  line-height: 1.71429em;
+  display: block;
+  margin: 1.5em auto 0;
+}
+
+.footer-nav {
+  margin-bottom: 2em;
+}
+
+.footer-nav .footer-menu {
+  margin: 3em 0;
+}
+
+.footer-nav .footer-menu .footer-menu-inner{
+  margin: 0 -29px;
+  padding: 0;
+  font-size: 0;
+  text-align: center;
+}
+
+
+.footer-nav .footer-menu ul.footer-menu-inner li {
+  text-transform: none;
+  font-family: "MuseoSansCyrl-500",Helvetica,Arial,sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-nav .footer-menu ul.footer-menu-inner li {
+  border: none;
+  font-size: 1.5rem;
+  width: 33.33%;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 1em;
+  padding-left: 29px;
+  padding-right: 29px;
+}
+
+
+.footer-nav .footer-menu ul.footer-menu-inner li a{
+  padding: 0.6em;
+  display: block;
+  border: 1px solid #fff;
+  border-radius: 3em;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-nav .footer-nav-inner > ul.footer-menu-inner{
+  margin: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav .footer-nav-inner > ul.footer-menu-inner li {
+  text-transform: none;
+  font-family: "MuseoSansCyrl-500",Helvetica,Arial,sans-serif;
+  border-right: 1px solid #b2ddda;
+  margin: 0;  
+  padding: 0;
+  font-size: 1rem;
+}
+
+.footer-nav .footer-nav-inner > ul.footer-menu-inner li:last-of-type{
+  border: none;
+}
+
+.footer-nav .footer-nav-inner > ul.footer-menu-inner li a{
+  color: #fff;
+  padding: 0.5em 1em;
+  text-decoration: underline;
+}
+
+.footer-nav .footer-nav-inner > ul.footer-menu-inner li a:hover{
+  text-decoration: none;
+}
+
+.small-info{
+  color: #fff;
+  line-height: 2em;
+  font-family: Helvetica,Arial,sans-serif;
+  display: block;
+  font-size: .86em;
+  pointer-events: none;
+}
+
+.small-info:first-of-type{
+  margin-top: 1em;
+}
+
+
 
 @media (prefers-reduced-motion: no-preference){
     :root {
