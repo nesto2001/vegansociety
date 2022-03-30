@@ -536,6 +536,90 @@ a.btn-link{
   margin: -70px 0 0 -26px;
 }
 
+.page-content-middle .articles .section-title{
+    font-size: 1.95em;
+    margin-bottom: 0.75em;
+    line-height: 1.2;
+    color: #008375;
+    font-family: "Museo Slab 700",Helvetica,Arial,sans-serif;
+}
+
+.page-content-middle .articles .article{
+  width: 33.33%;
+  overflow: hidden;
+}
+
+.article{
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 2em;
+  font-size: 16px;
+}
+
+.articles .articles-wrapper{
+  font-size: 0;
+  margin-left: -58px;
+}
+
+.articles .articles-wrapper .article{
+  min-height: 183px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.articles .articles-wrapper .article .blog-thumbnail{
+  position: relative;
+  height: auto;
+}
+
+.articles .articles-wrapper .article .blog-thumbnail a img{
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.articles .articles-wrapper .article .blog-title{
+  padding: 0;
+  color: #008375;
+  text-decoration: none;
+}
+
+.articles .articles-wrapper .article .blog-title h2{
+  font-size: 1.25em;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+}
+
+.articles .articles-wrapper .article .blog-title a{
+  font-family: "MuseoSansCyrl-700",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+}
+
+.articles .articles-wrapper .article .blog-title a:hover{
+  color: #008375;
+  text-decoration: underline;
+}
+
+.articles .articles-wrapper .article .banner-tag{
+  background-color: #008e84;
+  color: #fff;
+  font-size: 1.3em;
+  padding: 0.127em 0.8037em 0.127em 1em;
+}
+
+.articles .articles-wrapper .article .blog-body{
+  padding: 0;
+}
+
+.articles .articles-wrapper .article{
+  padding-left: 58px;
+}
+
+.getinvolved.articles .articles-wrapper .article .banner-tag{
+  background-color: #f8991d;
+  color: #fff;
+  font-size: 1.3em;
+  padding: 0.127em 0.8037em 0.127em 1em;
+}
 
 @media (prefers-reduced-motion: no-preference){
     :root {
