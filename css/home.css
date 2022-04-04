@@ -1686,6 +1686,50 @@ ul.registration-tabs li.active a {
   text-decoration: underline;
 }
 
+.header-megamenu .megamenu-nav-item .megamenu-dropdown{
+    min-width: 200px;
+    display: block;
+    overflow: hidden;
+    height: 200px;
+    width: 1248px;
+    margin: 0;
+    margin-left: -499.25px;
+    padding: 0;
+    border: 0;
+    max-width: 1248px;
+}
+
+.megamenu-nav-item .megamenu-dropdown{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  /* display: none; */
+  float: left;
+  list-style: none;
+  background-color: rgba(0,142,132,.9);
+  /* background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0,0,0,.2);
+  border-bottom: 3px solid #e65855;
+  border-top: none;
+  padding: 0;
+  margin: 0; */
+  border-radius: 0;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+  background-clip: padding-box;
+}
+
+.megamenu-dropdown-flex{
+  display: flex;
+}
+
+.dropdown-column{
+  width: 31.623931623931625%;
+  margin-left: 32px;
+  min-height: 300px;
+}
+
 @media (prefers-reduced-motion: no-preference){
     :root {
         scroll-behavior: smooth;
