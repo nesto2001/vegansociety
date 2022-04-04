@@ -997,6 +997,7 @@ a.btn-link{
   width: 30.23256%;
   margin-right: 0;
   display: inline-block;
+  vertical-align: top;
 }
 
 .header-area {
@@ -1508,6 +1509,181 @@ ul.registration-tabs li.active a {
   line-height: 1.6em;
   font-weight: 700;
   width: 104px;
+}
+
+.side-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #008375;
+  margin: 0 0 1.5em;
+  padding: 0 0 0.6em;
+  color: #fff;
+}
+
+.side-nav h2 {
+  font-family: "Museo Slab 700",Helvetica,Arial,sans-serif;
+  font-size: 1.875em;
+  line-height: 1.2em;
+  color: #fff;
+  margin: 0;
+  padding: 0.75em 0.75em 0.5em;
+}
+
+.side-nav .menu{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: 700;
+}
+
+.side-nav .menu li a{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5em 1.5em;
+}
+
+.side-nav .menu li:hover{
+  background: #ff9e16;
+}
+
+.side-banner .banner-content{
+  padding-left: 0!important;
+  background-color: #fff;
+  box-shadow: rgb(0 0 0 / 30%) 0 0 15px;
+}
+
+.banner-content {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 2em;
+  padding-left: 58px;
+  font-size: 16px;
+}
+
+.banner-content .side-banner-thumb{
+  position: relative;
+}
+
+.banner-content img{
+  margin: 0 0 1.5em;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.side-banner-title{
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.side-banner-title h2{
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-family: "MuseoSansCyrl-700",Helvetica,Arial,sans-serif;
+  color: #666;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+}
+
+.side-banner .banner-content a{
+  color: #3a334f!important;
+}
+
+.more-link {
+  text-align: right;
+  font-weight: 700;
+}
+
+.side-banner-body{
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.side-banner-body p{
+  margin: 0 0 1.5em;
+  max-width: 860px;
+}
+
+.social-link{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.social-link a {
+  flex: 1 25%;
+  text-align: center;
+}
+
+.social-link a img {
+  height: 50px;
+  width: auto;
+  margin: 0 0 1.5em;
+  max-width: 100%;
+}
+
+.site-footer .footer-nav .footer-link:hover a{
+  background: #fff;
+  color: #008375;
+}
+
+.tm-carousel.shop-carousel .carousel-cell img{
+  height: auto;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.page-shop hr{
+  margin: 3em 0 1em;
+}
+
+.header-statement {
+  font-size: 1em;
+  padding: 1em;
+  background-color: #eee;
+  border: 2px solid #d3d3d3;
+  margin-bottom: 1.5em;
+}
+
+.header-statement p {
+  font-family: "MuseoSansCyrl-700",Helvetica,Arial,sans-serif!important;
+  font-weight: 500;
+  margin: 0 0 1.5em;
+  max-width: 860px;
+  margin-bottom: 0.5em;
+}
+
+.shop-banner-content{
+  padding-bottom: 1.5em;
+}
+
+.page-shop .articles .article {
+  width: 50%;
+}
+
+.page-shop .articles .article .blog-title{
+  border-bottom: 3px solid #f8991d;
+  margin-bottom: 0.5em;
+}
+
+.contact-info h4{
+  font-size: 1.2rem;
+  line-height: 1.5em;
+  color: #008375;
+  font-weight: 700;
+  margin: 0.5em 0;
+}
+
+.contact-info p a{
+  color: #ff9e16;
+  font-weight: 700;
+}
+.contact-info p a:hover{
+  text-decoration: underline;
 }
 
 @media (prefers-reduced-motion: no-preference){
