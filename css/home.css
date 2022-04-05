@@ -137,7 +137,6 @@ h1, h2 {
 .container {
     zoom: 1;
     max-width: 86em;
-    width: 86em;
     padding-left: 4em;
     padding-right: 4em;
     margin-left: auto;
@@ -1688,12 +1687,11 @@ ul.registration-tabs li.active a {
 
 .header-megamenu .megamenu-nav-item .megamenu-dropdown{
     min-width: 200px;
-    display: block;
-    overflow: hidden;
+    display: none;
     height: 200px;
     width: 1248px;
     margin: 0;
-    margin-left: -499.25px;
+    margin-left: -497px;
     padding: 0;
     border: 0;
     max-width: 1248px;
@@ -1704,7 +1702,6 @@ ul.registration-tabs li.active a {
   top: 100%;
   left: 0;
   z-index: 1000;
-  /* display: none; */
   float: left;
   list-style: none;
   background-color: rgba(0,142,132,.9);
@@ -1727,11 +1724,504 @@ ul.registration-tabs li.active a {
 .dropdown-column{
   width: 31.623931623931625%;
   margin-left: 32px;
-  min-height: 300px;
+}
+
+.megamenu-dropdown-flex .dropdown-column:first-child{
+  margin-left: 0;
+}
+
+.header-megamenu .dropdown-column-inner{
+  padding: 0.7em 0.7em 1em;
+}
+
+.header-megamenu .megamenu-subnav > li a{
+  padding: 0.5em 0.5rem 0.7em!important;
+  display: block;
+  line-height: 20px;
+  font-weight: 400;
+  text-shadow: none;
+  color: #fff;
+}
+
+.header-megamenu .megamenu-subnav > li, .header-megamenu .submenu-items > li{
+  display: block;
+  float: none;
+  list-style: none;
+  margin-left: 0;
+}
+
+.header-megamenu .megamenu-subnav li.megamenu-item-submenu> a::after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #ccc;
+  margin-top: 5px;
+  margin-right: 0
+}
+
+.megamenu-item-submenu{
+  position: relative;
+}
+
+.header-megamenu .dropdown-column li>a:hover, .header-megamenu .dropdown-column li>a:focus {
+  background-image: none;
+  color: #fff;
+  text-decoration: none;
+  background-color: rgba(255,255,255,.2);
+}
+
+.submenu-dropdown{
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  float: left;
+  min-width: 160px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+  background-clip: padding-box;
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0;
+  min-width: 200px;
+  background-color: rgba(0,142,132,.9);
+}
+
+.dropdown-column.dc-right .submenu-dropdown{
+  right: 100% !important;
+  left: auto;
+}
+
+.submenu-dropdown .submenu-items li{
+  font-size: .9em;
+  font-family: Arial,helvetica neue,Helvetica,sans-serif;
+  padding-bottom: 0;
+}
+
+.submenu-dropdown .submenu-items li a{
+  padding: 0.5em 0.5rem 0.7em!important;
+  padding-top: 0.3em!important;
+  padding-bottom: 0.3em!important;
+}
+
+.megamenu-item-submenu:hover .submenu-dropdown{
+  display: block;
+}
+
+.megamenu-nav-item:hover .megamenu-dropdown{
+  display: block;
+}
+
+#site-header-megamenu-main-menu .header-megamenu .megamenu-nav> li:hover >a {
+  background-color: rgba(0,142,132,.9) !important;
+  color: #fff;
+}
+
+#site-header-megamenu-main-menu ul.megamenu-nav>li#vegantm:hover > a {
+  background-image: url(../img/default/ico-vegan-hover.svg);
+}
+
+.mobile-nav {
+  display: none;
+  width: 26px;
+  margin: 18px 0 0;
+  float: left;
+}
+
+.industry-section .tm-carousel .flickity-prev-next-button {
+  position: absolute;
+  top: 30%;
 }
 
 @media (prefers-reduced-motion: no-preference){
     :root {
         scroll-behavior: smooth;
     }
+}
+
+@media (max-width: 420px){
+  .site-header .container {
+    height: 4em;
+  }
+  .site-logo {
+    background-image: url(../img/default/logo-vegan-society-sml.svg);
+    background-size: 38px 43px;
+    width: 38px;
+    height: 43px;
+    position: absolute;
+    left: 45%;
+  }
+  .mobile-nav {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    display: block;
+  }
+  .header-right-wrapper{
+    display: none;
+  }
+  .container {
+    padding: 0 1.5em;
+  }
+  .mobile-user-nav {
+    float: right;
+    margin-top: 1em;
+  }
+  
+  .mobile-user-nav .user-nav-inner {
+    position: absolute;
+    bottom: -3.25em;
+    left: 0;
+    right: 0;
+    transform: none;
+    text-align: center;
+  }
+  
+  .mobile-user-nav ul.site-nav-item {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+  
+  .mobile-user-nav ul.site-nav-item li {
+    margin: 0 0.5em;
+  }
+  
+  .mobile-user-nav ul.site-nav-item li a {
+    padding: 0;
+    font-size: 1em;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-indent: -9000px;
+    background-color: #fff!important;
+    box-shadow: 0 2px 20px 0 rgb(0 0 0 / 20%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    color: #fff;
+    border-radius: 3em;
+  }
+
+  .mobile-user-nav ul.site-nav-item li.nav-donate-btn a  {
+    background-image: url(../img/default/ico-donate.svg);
+  }
+
+  .mobile-user-nav ul.site-nav-item li.nav-join-btn a  {
+    background-image: url(../img/default/ico-join.svg);
+  }
+
+  .mobile-user-nav ul.site-nav-item li.nav-member-btn a  {
+    background-image: url(../img/default/ico-account.svg);
+  }
+
+  .page {
+    padding: 30px 0;
+  }
+
+  .page-content-top {
+    margin: 68px -2em 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page-content-top .page-app{
+    background: #269f96 url(../img/default/img-bg-pledge-block.png) center/cover no-repeat;
+    text-align: center;
+    color: #fff;
+    font-size: 1em;
+    padding: 1.5em 2em;
+    padding-top: 3em;
+  }
+
+  .page-content-top .page-app .app-title{
+    font-size: 1.95em;
+    line-height: 1.2;
+    margin-bottom: 0.5em;
+  }
+
+  .page-content-top .page-app p{
+    padding: 0;
+    margin-bottom: 1em;
+  }
+
+  .page-banner-left {
+    padding: 0;
+    width: 100%;
+  }
+
+  .banner-left-slider .item-title h2 {
+    font-size: 1.5em!important;
+    padding-left: 0.5em!important;
+  }
+
+  .banner-left-slider .item-title {
+    top: 1.1em;
+    max-width: 80%;
+  }
+
+  .banner-left-slider .banner-tag{
+    display: none;
+  }
+  .owl-nav{
+    display: none;
+  }
+
+  .banner-left-slider .item-body{
+    position: relative;
+    background-color: #f78800;
+    padding: 0.6em 1.5em 2.2em;
+    padding-bottom: 2em;
+    bottom: 0 ;
+  }
+  .banner-left-slider .item-body p{
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+
+  .page-banner-right{
+    padding: 2.5em 32px 10%;
+    width: 100% !important;
+  }
+  .page-banner-right .banner-blog-wrapper .banner-blog {
+    text-align: left; 
+    width: 100%;
+    display: block;
+    max-width: 100%;
+    padding-bottom: 0;
+    margin-bottom: 2em;
+    position: relative;  
+  }
+
+  .home .site{
+    background-position-y: 833.422px !important;
+    background-size: auto 15% !important;
+  }
+
+  .page-content-middle .articles .article {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .news-signup {
+    font-size: 1em;
+    padding: 1.5em 1em 80%;
+    background-size: 168% auto;
+    text-align: center;
+    background-position: center bottom;
+  }
+  
+  .news-signup a.btn-link{
+    float:none;
+    display: inline-block;
+  }
+
+  .newsletter-signup img.newsletter {
+    bottom: -4%;
+    height: auto;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) rotate(-2deg);
+  }
+
+  .footer-nav .footer-menu ul.footer-menu-inner li {
+    font-size: 1.5rem;
+    width: auto;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto 1em;
+    padding-left: 29px;
+    padding-right: 29px;
+  }
+
+  .footer-nav .footer-nav-inner > ul.footer-menu-inner li {
+    display: block;
+    border-right: none;
+    margin-bottom: 0.25em;
+  }
+
+  .footer-nav .footer-nav-inner > ul.footer-menu-inner {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer-nav .footer-menu {
+    margin: 4em 0;
+  }
+
+  .page-title {
+    padding: 160px 0 25px;
+    margin-top: 0;
+  }
+  
+  .page-title h1 {
+    font-size: 3.125em;
+    line-height: 1.008em;
+  }
+
+  .page-content-middle .section-name h2 {
+    font-size: 1.625em;
+    line-height: 1.5em;
+  }
+
+  .main-content {
+    width: 100%;
+    margin-right: 11.9403%;
+  }
+
+  .page-sidebar {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 3em;
+  }
+
+  .header-area {
+    flex-direction: column;
+  }
+
+
+  .header-area .header-text h2 {
+    font-size: 1.625em;
+    line-height: 1.5em;
+  }
+
+  .header-area img {
+    width: 100%;
+    height: auto;
+    padding: 1em 0;
+    margin-bottom: 0;
+  }
+
+  .header-area .header-text {
+    border-left: none;
+    border-top: 3px solid #ff9e16;
+    padding: 1em 0 0;
+  }
+
+  .button-section {
+    flex-direction: column;
+  }
+
+  .button-section a {
+    width: 100%;
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 0.5em;
+  }
+
+  .industry-section .flickity-viewport .carousel-cell {
+    width: 100%;
+  }
+
+  .industry-section .flickity-viewport {
+    height: 270px!important;
+  }
+  
+  .TM-benefits .benefit img {
+    border-radius: 0;
+    width: 100%;
+    margin-bottom: 1.5em;
+  }
+
+  .TM-benefits .img-first {
+    flex-direction: column;
+    margin-bottom: 1.5em;
+  }
+
+  .TM-benefits .img-first .benefit-text.right, .impact-section .img-first .benefit-text.right {
+    padding-left: 0;
+  }
+
+  .TM-benefits .img-second {
+    flex-direction: column-reverse;
+    margin-bottom: 1em;
+  }
+
+  .TM-benefits .img-second {
+    flex-direction: column-reverse;
+    margin-bottom: 1em;
+  }
+
+  .volunteer-collapse-content {
+    padding: 0!important;
+  }
+
+  .TM-benefits h3, .impact-section h3 {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  .volunteer-collapse-content .flickity-viewport .carousel-cell {
+      height: 100%;
+      width: 100%;
+  }
+
+  .impact-section .img-first {
+    flex-direction: column;
+    margin-bottom: 1.5em;
+  }
+
+  .header-area img, .impact-section .benefit a, .industry-section .flickity-viewport .carousel-cell img, .stage h3, .text-first img, .text-second img{
+    width: 100%;
+  }
+
+  .impact-section .benefit img {
+    border-radius: 0;
+    width: 100%;
+    margin-bottom: 1em;
+    margin-left: 0;
+  }
+
+  .TM-benefits .img-first .benefit-text.right, .impact-section .img-first .benefit-text.right {
+    padding-left: 0;
+  }
+
+  .impact-section .img-second {
+    flex-direction: column-reverse;
+    margin-bottom: 1.5em;
+  }
+
+  ul.registration-tabs {
+    flex-direction: column;
+  }
+
+  ul.registration-tabs li {
+    max-width: 100%;
+    width: 100%!important;
+    margin-bottom: 0.5em;
+    border-radius: 3em;
+  }
+
+  .stage {
+    flex-direction: column;
+    margin-top: 1.5em;
+  }
+
+  .stage h3 {
+    border-right: none;
+    border-bottom: 3px solid #ff9e16;
+    padding-bottom: 0.5em;
+    min-height: auto;
+  } 
+
+  .application-process ul {
+    margin: 0!important;
+  }
+
+  .flickity-prev-next-button{
+    display: none;
+  }
 }
