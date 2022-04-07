@@ -1,23 +1,453 @@
 <!DOCTYPE html>
 <html lang="en" class="">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>The Vegan Society |</title>
     <link rel="icon" type="image/x-icon" href="img/default/favicon_0.ico" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="owlcarousel/dist/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="owlcarousel/dist/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="owlcarousel/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <link href="css/home.css" rel="stylesheet"/>
-    <link href="fonts/museo-sans/museo-sans-style.css" rel="stylesheet"/>
-    <link href="fonts/museo-slab/museo-slab-style.css" rel="stylesheet"/>
-  </head>
-  <body class="page-category">
+    <link href="css/home.css" rel="stylesheet" />
+    <link href="fonts/museo-sans/museo-sans-style.css" rel="stylesheet" />
+    <link href="fonts/museo-slab/museo-slab-style.css" rel="stylesheet" />
+</head>
 
-    <nav id="mobile-nav"></nav>
+<body class="page-category">
+
+    <nav id="mobile-nav" class="mb-menu">
+        <div class="mb-panels">
+            <div class="mb-panel mb-open" id="mb-1">
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-2" data-parent="#mb-1"></a>
+                        <a href="news.html" title="News">News</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-8" data-parent="#mb-1"></a>
+                        <a href="go-vegan.html" title="Go Vegan">Go Vegan</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-14" data-parent="#mb-1"></a>
+                        <a href="get-involved.html" title="Get Involved">Get Involved</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-15" data-parent="#mb-1"></a>
+                        <a href="lifestyle.html" title="Get Involved">Lifestyle</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-16" data-parent="#mb-1"></a>
+                        <a href="the-vegan-trademark.html" title="Get Involved">Vegan Trademark</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-17" data-parent="#mb-1"></a>
+                        <a href="shop.html" title="Get Involved">Shop</a>
+                    </li>
+
+                    <li>
+                        <a href="" title="Get Involved">Donate</a>
+                    </li>
+                    <li>
+                        <a href="" title="Get Involved">Join</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-2">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-1" data-parent="#mb-2"></a>
+                    <a class="mb-title">News</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="news.html" title="News">News</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Go Vegan">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-3" data-parent="#mb-2"></a>
+                        <a href="" title="Get Involved">Events</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-4" data-parent="#mb-2"></a>
+                        <a href="" title="Get Involved">Competitions</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-5" data-parent="#mb-2"></a>
+                        <a href="" title="Get Involved">Media</a>
+                    </li>
+                    <li>
+                        <a href="" class="mb-next"></a>
+                        <a href="" title="Get Involved">Market insights</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-3">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-2" data-parent="#mb-3"></a>
+                    <a class="mb-title">Events</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="" title="News">Past events</a>
+                    </li>
+                    <li>
+                        <a href="" title="Go Vegan">Submit an event</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-4">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-2" data-parent="#mb-4"></a>
+                    <a class="mb-title">Competitions</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="" title="News">Win a case of vegan kefir drinks by PiQi</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-5">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-2" data-parent="#mb-5"></a>
+                    <a class="mb-title">Media</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="" title="News">Press releases</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-6" data-parent="#mb-5"></a>
+                        <a href="" title="Get Involved">Statistics</a>
+                    </li>
+                    <li>
+                        <a href="" title="News">Spokespeople</a>
+                    </li>
+                    <li>
+                        <a href="" title="News">Share your story</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-6">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-5" data-parent="#mb-6"></a>
+                    <a class="mb-title">Statistics</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="">Treatment of animals</a>
+                    </li>
+                    <li>
+                        <a href="">Worldwide growth of veganism</a>
+                    </li>
+                    <li>
+                        <a href="">Environment and sustainability</a>
+                    </li>
+                    <li>
+                        <a href="">Business and food sales</a>
+                    </li>
+                    <li>
+                        <a href="the-vegan-trademark.html">The Vegan Trademark</a>
+                    </li>
+                    <li>
+                        <a href="">Health</a>
+                    </li>
+                    <li>
+                        <a href="">Beauty and household</a>
+                    </li>
+                    <li>
+                        <a href="">Fashion and textiles</a>
+                    </li>
+                    <li>
+                        <a href="">Families and children</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-7">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-2" data-parent="#mb-7"></a>
+                    <a class="mb-title">Market insights</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="">Market Reports</a>
+                    </li>
+                    <li>
+                        <a href="">Personalised insight reports</a>
+                    </li>
+                    <li>
+                        <a href="">Vegan insight panel</a>
+                    </li>
+                    <li>
+                        <a href="">Market news</a>
+                    </li>
+                    <li>
+                        <a href="">Plant milk market</a>
+                    </li>
+                    <li>
+                        <a href="">Meat alternative market</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-8">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-1" data-parent="#mb-8"></a>
+                    <a class="mb-title">Go Vegan</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="" title="News">Definition of veganism</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-9" data-parent="#mb-8"></a>
+                        <a href="" title="Get Involved">Why go vegan?</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-12" data-parent="#mb-8"></a>
+                        <a href="" title="Get Involved">How to go vegan</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-13" data-parent="#mb-8"></a>
+                        <a href="" title="Get Involved">Take the Vegan Pledge</a>
+                    </li>
+                    <li>
+                        <a href="" title="Get Involved">VeGuide App - Go Vegan the Easy Way</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-9">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-8" data-parent="#mb-9"></a>
+                    <a class="mb-title">Why go vegan?</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-10" data-parent="#mb-9"></a>
+                        <a href="" title="Get Involved">How many animals would I save?</a>
+                    </li>
+                    <li>
+                        <a href="">Health</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-11" data-parent="#mb-9"></a>
+                        <a href="" title="Get Involved">Environment</a>
+                    </li>
+                    <li>
+                        <a href="">The honey industry</a>
+                    </li>
+                    <li>
+                        <a href="">The dairy industry</a>
+                    </li>
+                    <li>
+                        <a href="">The egg industry</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-10">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-9" data-parent="#mb-10"></a>
+                    <a class="mb-title">How many animals would I save?</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="">About the Veganalyser</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-11">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-9" data-parent="#mb-11"></a>
+                    <a class="mb-title">Environment</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="">Food security</a>
+                    </li>
+                    <li>
+                        <a href="">Water requirements</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-12">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-8" data-parent="#mb-12"></a>
+                    <a class="mb-title">How to go vegan</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="">Meal planning</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-13">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-8" data-parent="#mb-13"></a>
+                    <a class="mb-title">Take the Vegan Pledge</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="">Pledge testimonials</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-14">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-1" data-parent="#mb-14"></a>
+                    <a class="mb-title">Get Involved</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Campaigns</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Donate</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Raise funds</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Volunteer</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Grants</a>
+                    </li>
+                    <li>
+                        <a href="#">Join our newsletter</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Our work with policy makers</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Research</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">International Rights Network</a>
+                    </li>
+                    <li>
+                        <a href="#">Veganise your town</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Business</a>
+                    </li>
+                    <li>
+                        <a href="#">Become a member</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-15">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-1" data-parent="#mb-15"></a>
+                    <a class="mb-title">Lifestyle</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Nutrition and health</a>
+                    </li>
+                    <li>
+                        <a href="#">Recipes</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Fashion</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Food and drink  </a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">School</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Shopping</a>
+                    </li>
+                    <li>
+                        <a href="#">Social</a>
+                    </li>
+                    <li>
+                        <a href="#">Travel</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Publications and video</a>
+                    </li>
+                    <li>
+                        <a href="#">General FAQs</a>
+                    </li>
+                    <li>
+                        <a href="#">Family</a>
+                    </li>
+                    <li>
+                        <a href="#">Teen Hub</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-16">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-1" data-parent="#mb-16"></a>
+                    <a class="mb-title">Vegan Trademark</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Nutrition and health</a>
+                    </li>
+                    <li>
+                        <a href="#">Blogs and news</a>
+                    </li>
+                    <li>
+                        <a href="#">Corporate engagement</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Vegan Trademark standards</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Vegan Trademark events</a>
+                    </li>
+                    <li>
+                        <a href="#">FAQs</a>
+                    </li>
+                    <li>
+                        <a href="#">Trademarked products search</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-17">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-1" data-parent="#mb-17"></a>
+                    <a class="mb-title">Shop</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="#">VEG 1 Vegan Supplements</a>
+                    </li>
+                    <li>
+                        <a href="#">Gifts & Accessories</a>
+                    </li>
+                    <li>
+                        <a href="#">Donate now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <div class="site dt-site mb-site">
         <div class="site-container">
@@ -75,13 +505,13 @@
                                                                                         Blog
                                                                                     </a>
                                                                                 </li>
-                                                                            
+
                                                                                 <li class="megamenu-item">
                                                                                     <a href="" title="Events">
                                                                                         Events
                                                                                     </a>
                                                                                 </li>
-                                                                            
+
                                                                                 <li class="megamenu-item">
                                                                                     <a href="" title="Competitions">
                                                                                         Competitions
@@ -236,7 +666,7 @@
                                                                                         </div>
                                                                                     </div>
                                                                                 </li>
-                                                                            
+
                                                                                 <li class="megamenu-item-submenu">
                                                                                     <a href="" title="Events">
                                                                                         How to go vegan
@@ -255,7 +685,7 @@
                                                                                         </div>
                                                                                     </div>
                                                                                 </li>
-                                                                            
+
                                                                                 <li class="megamenu-item">
                                                                                     <a href="" title="Competitions">
                                                                                         Take the Vegan Pledge
@@ -329,7 +759,7 @@
                                                                                         </div>
                                                                                     </div>
                                                                                 </li>
-                                                                            
+
                                                                                 <li class="megamenu-item-submenu">
                                                                                     <a href="" title="Events">
                                                                                         Raise funds
@@ -368,7 +798,7 @@
                                                                                         </div>
                                                                                     </div>
                                                                                 </li>
-                                                                            
+
                                                                                 <li class="megamenu-item-submenu">
                                                                                     <a href="" title="Events">
                                                                                         Volunteer
@@ -451,7 +881,7 @@
                                                                                         </div>
                                                                                     </div>
                                                                                 </li>
-                                                                            
+
                                                                                 <li class="megamenu-item-submenu">
                                                                                     <a href="" title="Events">
                                                                                         Research
@@ -529,7 +959,7 @@
                                                                                         </div>
                                                                                     </div>
                                                                                 </li>
-                                                                                
+
                                                                                 <li class="megamenu-item">
                                                                                     <a href="">
                                                                                         Veganise your town
@@ -635,14 +1065,14 @@
                                                                                                 </ul>
                                                                                             </div>
                                                                                         </div>
-                                                                                    </div>  
+                                                                                    </div>
                                                                                 </li>
                                                                                 <li class="megamenu-item">
                                                                                     <a href="">
                                                                                         Recipes
                                                                                     </a>
                                                                                 </li>
-                                                                            
+
                                                                                 <li class="megamenu-item-submenu">
                                                                                     <a href="" title="Events">
                                                                                         Fashion
@@ -666,7 +1096,7 @@
                                                                                         </div>
                                                                                     </div>
                                                                                 </li>
-                                                                            
+
                                                                                 <li class="megamenu-item-submenu">
                                                                                     <a href="" title="Events">
                                                                                         Food and drink
@@ -791,7 +1221,7 @@
                                                                                         </div>
                                                                                     </div>
                                                                                 </li>
-                                                                                
+
                                                                                 <li class="megamenu-item">
                                                                                     <a href="">
                                                                                         General FAQs
@@ -803,7 +1233,7 @@
                                                                                         Family
                                                                                     </a>
                                                                                 </li>
-                                                                                
+
                                                                                 <li class="megamenu-item">
                                                                                     <a href="">
                                                                                         Teen Hub
@@ -890,18 +1320,18 @@
                             </a>
                         </div>
                     </div>
-                    
+
                 </div>
             </header>
 
-            <header class="page-title"  style="background-image: url(img/default/tm-page-banner.jpg);">
+            <header class="page-title" style="background-image: url(img/default/tm-page-banner.jpg);">
                 <div class="tilted-container">
                     <div class="container">
                         <h1>The Vegan Trademark</h1>
                     </div>
                 </div>
             </header>
-            
+
             <section class="page">
                 <div class="container">
                     <div class="page-content page-content-middle">
@@ -922,7 +1352,8 @@
                                                 Trusted vegan labelling by the Vegan Trademark.<br>
                                             </h2>
                                             <p class="m-0">
-                                                The Vegan Trademark has been helping people identify that a product is free from animal ingredients&nbsp;since 1990. Registration with the trademark gives brands the confidence to shout about their vegan credentials. Look out for the Vegan Trademark on over 60,000 products worldwide, including cosmetics, clothing, food, drink, household items, and many more!
+                                                The Vegan Trademark has been helping people identify that a product is free from animal ingredients&nbsp;since 1990. Registration with the trademark gives brands the confidence to shout about their vegan credentials. Look out for the Vegan Trademark on
+                                                over 60,000 products worldwide, including cosmetics, clothing, food, drink, household items, and many more!
                                             </p>
                                         </div>
                                     </div>
@@ -972,7 +1403,7 @@
                                                             <img src="img/media/vegantm/iStock-1139277702.webp" alt="">
                                                         </a>
                                                         <h4>
-                                                            Food, Drink and Supplements 
+                                                            Food, Drink and Supplements
                                                         </h4>
                                                     </div>
                                                 </div>
@@ -1019,7 +1450,7 @@
                                                     <div class="benefit-text left">
                                                         <h3>Leave it to the experts</h3>
                                                         <ul>
-                                                            <li>Stay focused on what you do best—creating products! Leave the hard work of vegan verification  to us.</li>
+                                                            <li>Stay focused on what you do best—creating products! Leave the hard work of vegan verification to us.</li>
                                                             <li>Our vegan team at The Society ensure we always uphold the highest standards of quality.</li>
                                                             <li>Let us become your partner in all things vegan - we work with you as the authority on third party vegan accreditation.</li>
                                                         </ul>
@@ -1052,7 +1483,7 @@
                                                 </div>
                                             </div>
                                             <p>
-                                                Want to know more about Vegan Trademark benefits? Watch our 
+                                                Want to know more about Vegan Trademark benefits? Watch our
                                                 <a href="https://attendee.gotowebinar.com/recording/8495080134491477775" target="_blank">
                                                     webinar
                                                 </a>.
@@ -1060,9 +1491,7 @@
                                             <hr>
                                             <strong><p>Sources:</p></strong>
                                             <p>
-                                                [1] Attest consumer survey for The Vegan Society - (‘Consumer Purchasing Habits’) 
-                                                of 1000 UK adults and 1000 USA adults – conducted between 22 February and 3 March 2021 
-                                                (online)
+                                                [1] Attest consumer survey for The Vegan Society - (‘Consumer Purchasing Habits’) of 1000 UK adults and 1000 USA adults – conducted between 22 February and 3 March 2021 (online)
                                             </p>
                                         </div>
                                         <button type="button" class="collapse-header">
@@ -1071,7 +1500,7 @@
                                         </button>
                                         <div class="volunteer-collapse-content our-reasons" style="display: none;">
                                             <p>
-                                                The Vegan Trademark has so many products registered from a range of brands; we couldn't possibly show everyone here. We do regularly update this area so you can see who is expanding their vegan offering and you can also check out our 
+                                                The Vegan Trademark has so many products registered from a range of brands; we couldn't possibly show everyone here. We do regularly update this area so you can see who is expanding their vegan offering and you can also check out our
                                                 <a href="https://www.vegansociety.com/search/products/a">Product Search.</a>
                                             </p>
                                             <p>
@@ -1083,101 +1512,101 @@
                                                         <img src="https://www.vegansociety.com/sites/default/files/uploads/Mars-Wrigley.jpg">
                                                     </a>
                                                 </div>
-                                                    <div class="carousel-cell">
+                                                <div class="carousel-cell">
                                                     <a href="https://www.aldi.co.uk/masala-roast-cauliflower-sausage/p/701748337090000" target="_blank">
                                                         <img src="https://www.vegansociety.com/sites/default/files/uploads/Aldi-White.jpg">
                                                     </a>
                                                 </div>
-                                                    <div class="carousel-cell">
+                                                <div class="carousel-cell">
                                                     <a href="https://www.accessorize.com/uk/handbags-purses/shop-by-product/vegan-bags--backpacks-purses/" target="_blank">
                                                         <img src="https://www.vegansociety.com/sites/default/files/uploads/Accessorize%20%281%29.jpg">
                                                     </a>
                                                 </div>
-                                                    <div class="carousel-cell">
+                                                <div class="carousel-cell">
                                                     <a href="https://www.illamasqua.com/shop/vegan.list" target="_blank">
                                                         <img src="https://www.vegansociety.com/sites/default/files/uploads/Illamasqua.jpg">
                                                     </a>
                                                 </div>
-                                                    <div class="carousel-cell">
+                                                <div class="carousel-cell">
                                                     <a href="https://uk.lush.com/vegan-cosmetics" target="_blank">
                                                         <img src="https://www.vegansociety.com/sites/default/files/uploads/Lush.jpg">
                                                     </a>
                                                 </div>
-                                                    <div class="carousel-cell">
+                                                <div class="carousel-cell">
                                                     <a href="https://www.lazydayfoods.com/our-shop" target="_blank">
                                                         <img src="https://www.vegansociety.com/sites/default/files/uploads/Lazy%20Day%20Foods.jpg">
                                                     </a>
                                                 </div>
-                                                    <div class="carousel-cell">
+                                                <div class="carousel-cell">
                                                     <a href="https://www.clivespies.com/easy-as-pie" target="_blank">
                                                         <img src="https://www.vegansociety.com/sites/default/files/uploads/Clives.jpg">
                                                     </a>
                                                 </div>
-                                                    <div class="carousel-cell">
+                                                <div class="carousel-cell">
                                                     <a href="https://www.grenson.com/uk/grenson-collections/vegan-shoes-and-boots.html" target="_blank">
                                                         <img src="https://www.vegansociety.com/sites/default/files/uploads/Grenson.jpg">
                                                     </a>
                                                 </div>
-                                                    <div class="carousel-cell">
+                                                <div class="carousel-cell">
                                                     <a href="https://www.vivienkondor.com/?s=vegan" target="_blank">
                                                         <img src="https://www.vegansociety.com/sites/default/files/uploads/Vivien%20Kondor.jpg">
                                                     </a>
                                                 </div>
-                                                    <div class="carousel-cell">
+                                                <div class="carousel-cell">
                                                     <a href="https://www.paiskincare.com/pages/search-results?type=product&amp;q=vegan" target="_blank">
                                                         <img src="https://www.vegansociety.com/sites/default/files/uploads/Pai.jpg">
                                                     </a>
                                                 </div>
-                                                    <div class="carousel-cell">
+                                                <div class="carousel-cell">
                                                     <a href="https://purefreefrom.co.uk/products" target="_blank">
                                                         <img src="https://www.vegansociety.com/sites/default/files/uploads/Pure%20Free%20From.jpg">
                                                     </a>
                                                 </div>
-                                                    <div class="carousel-cell">
+                                                <div class="carousel-cell">
                                                     <a href="https://biod.co.uk/shop" target="_blank">
                                                         <img src="https://www.vegansociety.com/sites/default/files/uploads/Bio-D.jpg">
                                                     </a>
                                                 </div>
-                                                    <div class="carousel-cell">
+                                                <div class="carousel-cell">
                                                     <a href="https://groceries.asda.com/search/original%20source" target="_blank">
                                                         <img src="https://www.vegansociety.com/sites/default/files/uploads/Original%20Source.jpg">
                                                     </a>
                                                 </div>
-                                                    <div class="carousel-cell">
+                                                <div class="carousel-cell">
                                                     <a href="https://www.alpro.com/uk/products/drinks" target="_blank">
                                                         <img src="https://www.vegansociety.com/sites/default/files/uploads/Alpro.jpg">
                                                     </a>
                                                 </div>
-                                                    <div class="carousel-cell">
+                                                <div class="carousel-cell">
                                                     <a href="https://www.vbites.com" target="_blank">
                                                         <img src="https://www.vegansociety.com/sites/default/files/uploads/VBites.jpg">
                                                     </a>
                                                 </div>
-                                                    <div class="carousel-cell">
+                                                <div class="carousel-cell">
                                                     <a href="https://www.horlicks.co.uk/products/vegan" target="_blank">
                                                         <img src="https://www.vegansociety.com/sites/default/files/uploads/Horlicks.jpg">
                                                     </a>
                                                 </div>
-                                                    <div class="carousel-cell">
+                                                <div class="carousel-cell">
                                                     <a href="https://www.thevegilantes.com/" target="_blank">
                                                         <img src="https://www.vegansociety.com/sites/default/files/uploads/The%20Vegilantes.jpg">
                                                     </a>
                                                 </div>
-                                                    <div class="carousel-cell">
+                                                <div class="carousel-cell">
                                                     <a href="https://www.superdrug.com/Fragrance/Perfume-For-Women/Women%E2%80%99s-Perfume/Ghost-The-Fragrance-150ml-Eau-de-Toilette-Spray/p/410901#pdp__details" target="_blank">
                                                         <img src="https://www.vegansociety.com/sites/default/files/uploads/Ghost%20Fragrances.jpg">
                                                     </a>
                                                 </div>
-                                                    <div class="carousel-cell">
+                                                <div class="carousel-cell">
                                                     <a href="https://www.superdry.com/search/vegan" target="_blank">
                                                         <img src="https://www.vegansociety.com/sites/default/files/uploads/Superdry.jpg">
                                                     </a>
                                                 </div>
-                                                    <div class="carousel-cell">
+                                                <div class="carousel-cell">
                                                     <a href="https://www.elmlea.com/productoverview/double-plant" target="_blank">
-                                                    <img src="https://www.vegansociety.com/sites/default/files/uploads/Elmlea%20Plant.jpg">
+                                                        <img src="https://www.vegansociety.com/sites/default/files/uploads/Elmlea%20Plant.jpg">
                                                     </a>
-                                                  </div>
+                                                </div>
                                             </div>
                                         </div>
                                         <button type="button" class="collapse-header">
@@ -1186,11 +1615,12 @@
                                         </button>
                                         <div class="volunteer-collapse-content" style="display: none;">
                                             <p>
-                                                We work with thousands of brands to diligently ensure that the products registered with us can proudly display the Vegan Trademark. 
-                                              Not only do we pride ourselves on our high standard of customer service, but also the impact we know registering with us has. 
+                                                We work with thousands of brands to diligently ensure that the products registered with us can proudly display the Vegan Trademark. Not only do we pride ourselves on our high standard of customer service, but also the impact we know registering with us
+                                                has.
                                             </p>
                                             <p>
-                                                The Vegan Trademark helps brands shout about their vegan products with clarity. It also helps them understand their supply chain, supports the ever-growing demand for vegan products in the market, and allows consumers the ability to make quick purchasing decisions.
+                                                The Vegan Trademark helps brands shout about their vegan products with clarity. It also helps them understand their supply chain, supports the ever-growing demand for vegan products in the market, and allows consumers the ability to make quick purchasing
+                                                decisions.
                                             </p>
                                             <em>
                                                 <p>
@@ -1206,7 +1636,9 @@
                                                         <h3>New Look</h3>
                                                         <blockquote>
                                                             <p>
-                                                                "New Look is thrilled to have the Vegan Trademark on over 60% of our footwear and bags. Having launched our Vegan range in August 2019, we believe this is a step in the right direction for veganism. New Look is committed to its work with The Vegan Society to increase this further as we head into the new decade. We want to make vegan fashion affordable and accessible for our customers, and we understand the vegan lifestyle is about much more than food and cosmetics."
+                                                                "New Look is thrilled to have the Vegan Trademark on over 60% of our footwear and bags. Having launched our Vegan range in August 2019, we believe this is a step in the right direction for veganism. New Look is committed to its work with The Vegan Society
+                                                                to increase this further as we head into the new decade. We want to make vegan fashion affordable and accessible for our customers, and we understand the vegan lifestyle is about much more
+                                                                than food and cosmetics."
                                                             </p>
                                                         </blockquote>
                                                     </div>
@@ -1215,14 +1647,14 @@
                                                     <div class="benefit-text left">
                                                         <h3>Gola</h3>
                                                         <blockquote>
-                                                            <p>"Partnering with The Vegan Society has given the Gola vegan collection great credibility globally.  The whole approval process has been straightforward, and the team is great to work with."</p>
+                                                            <p>"Partnering with The Vegan Society has given the Gola vegan collection great credibility globally. The whole approval process has been straightforward, and the team is great to work with."</p>
                                                         </blockquote>
                                                     </div>
                                                     <a href="https://www.gola.co.uk/vegan-trainers-t189" target="_blank">
                                                         <img src="https://www.vegansociety.com/sites/default/files/uploads/Gola-Classics.jpg">
                                                     </a>
                                                 </div>
-            
+
                                                 <div class="benefit img-first">
                                                     <a href="https://groceries.asda.com/search/original%20source?cmpid=ahc-_-ghs-_-asdacom-_-hp-_-search-original-source" target="_blank">
                                                         <img src="https://www.vegansociety.com/sites/default/files/uploads/Original%20Source%20QUOTE.jpg">
@@ -1231,18 +1663,19 @@
                                                         <h3>Original Source</h3>
                                                         <blockquote>
                                                             <p>
-                                                                "Original Source has been registered with the Vegan Society since 2003. Our shared values and love of animals make us proud to carry the Vegan logo on all our bottles.  It has become an integral part of our brands identity."
+                                                                "Original Source has been registered with the Vegan Society since 2003. Our shared values and love of animals make us proud to carry the Vegan logo on all our bottles. It has become an integral part of our brands identity."
                                                             </p>
                                                         </blockquote>
                                                     </div>
                                                 </div>
-            
+
                                                 <div class="benefit img-second">
                                                     <div class="benefit-text left">
                                                         <h3>George Accessories</h3>
                                                         <blockquote>
                                                             <p>
-                                                                "As a team we’re delighted to be in a position to offer our customers a range of stylish Vegan bags, whilst still being able to offer the same great value as the rest of our products. We understand there is an increased demand for Vegan options in the fashion marketplace and it’s great we can provide such a stylish selection for our shopper to choose from."
+                                                                "As a team we’re delighted to be in a position to offer our customers a range of stylish Vegan bags, whilst still being able to offer the same great value as the rest of our products. We understand there is an increased demand for Vegan options in the
+                                                                fashion marketplace and it’s great we can provide such a stylish selection for our shopper to choose from."
                                                             </p>
                                                         </blockquote>
                                                     </div>
@@ -1250,7 +1683,7 @@
                                                         <img src="https://www.vegansociety.com/sites/default/files/uploads/George-Asda.jpg">
                                                     </a>
                                                 </div>
-            
+
                                                 <div class="benefit img-first">
                                                     <a href="https://www.goodfellaspizzas.com/our-range/pizzas/vegan" target="_blank">
                                                         <img src="https://www.vegansociety.com/sites/default/files/uploads/Goodfellas.jpg">
@@ -1258,7 +1691,8 @@
                                                     <div class="benefit-text right">
                                                         <h3>Goodfellas</h3>
                                                         <blockquote>
-                                                            <p>"We knew that we had to gain traction from a reputable source, which The Vegan Society provided us. Such is the demand for vegan and free-from products in retailers; there is more and more space being allocated to these areas within the frozen sector."</p>
+                                                            <p>"We knew that we had to gain traction from a reputable source, which The Vegan Society provided us. Such is the demand for vegan and free-from products in retailers; there is more and more space
+                                                                being allocated to these areas within the frozen sector."</p>
                                                         </blockquote>
                                                     </div>
                                                 </div>
@@ -1271,26 +1705,30 @@
                                         <div class="volunteer-collapse-content standards" style="display: none;">
                                             <blockquote class="tm-standards">
                                                 <p>
-                                                    The Vegan Trademark is the authentic international vegan standard and is managed by The Vegan Society; the charity that created the word 'vegan' back in 1944. 
-                                                    Our dedicated and experienced vegan team check each product application against the below criteria, working with manufacturers and suppliers across a range of fields to ensure that each product meets the highest vegan standards. 
-                                                    The Vegan Trademark is renewed on a yearly basis to ensure we have the most up to date information on all the products we certify.
+                                                    The Vegan Trademark is the authentic international vegan standard and is managed by The Vegan Society; the charity that created the word 'vegan' back in 1944. Our dedicated and experienced vegan team check each product application against the below criteria,
+                                                    working with manufacturers and suppliers across a range of fields to ensure that each product meets the highest vegan standards. The Vegan Trademark is renewed on a yearly basis to ensure we have the
+                                                    most up to date information on all the products we certify.
                                                 </p>
                                             </blockquote>
                                             <h3 class="sub-title">Animals</h3>
                                             <hr>
-                                            <p>The Vegan Society understands the word 'animal' to refer to the entire animal kingdom. That is all vertebrates and all multicellular invertebrates. 'Animal' can refer to a species or an individual; and is used as a noun or an adjective, as required. Unless otherwise stated, it usually means non-human animals.</p>
+                                            <p>The Vegan Society understands the word 'animal' to refer to the entire animal kingdom. That is all vertebrates and all multicellular invertebrates. 'Animal' can refer to a species or an individual; and is used
+                                                as a noun or an adjective, as required. Unless otherwise stated, it usually means non-human animals.</p>
                                             <h3 class="sub-title">Animal ingredients</h3>
                                             <hr>
                                             <p>The manufacture and/or development of the product, and its ingredients, must not involve or have involved, the use of any animal product, by-product or derivative.</p>
                                             <h3 class="sub-title">Animal testing</h3>
                                             <hr>
-                                            <p>The development and/or manufacture of the product, and its ingredients, must not involve or have involved, testing of any sort on animals conducted at the initiative of the company or on its behalf, or by parties over whom the company has effective control.</p>
+                                            <p>The development and/or manufacture of the product, and its ingredients, must not involve or have involved, testing of any sort on animals conducted at the initiative of the company or on its behalf, or by parties
+                                                over whom the company has effective control.</p>
                                             <h3 class="sub-title">Genetically Modified Organisms (GMOs)</h3>
                                             <hr>
-                                            <p>The development and/or production of GMOs must not have involved animal genes or animal-derived substances. Products put forward for trademark registration that contains or may contain any GMOs must be labelled as such.</p>
+                                            <p>The development and/or production of GMOs must not have involved animal genes or animal-derived substances. Products put forward for trademark registration that contains or may contain any GMOs must be labelled
+                                                as such.</p>
                                             <h3 class="sub-title">Kitchen and hygiene standards</h3>
                                             <hr>
-                                            <p>Any dishes that are to be labelled vegan must be prepared separately from non-vegan dishes. At a minimum, this means thoroughly washing surfaces and utensils before using them for vegan cooking. We strongly recommend obtaining a separate set of cleaning utensils for this purpose. </p>
+                                            <p>Any dishes that are to be labelled vegan must be prepared separately from non-vegan dishes. At a minimum, this means thoroughly washing surfaces and utensils before using them for vegan cooking. We strongly
+                                                recommend obtaining a separate set of cleaning utensils for this purpose. </p>
                                             <p>We ask for the awareness of the risk of cross-contamination from non-vegan sources in your kitchen or production line, and that the Trademark holder takes all reasonable and practical steps to eliminate this.</p>
                                         </div>
                                         <hr>
@@ -1334,7 +1772,7 @@
                                                     <div class="application-process">
                                                         <div class="stage">
                                                             <img src="https://www.vegansociety.com/sites/default/files/uploads/Icons-pencil-60x60%20%281%29.jpg">
-                                                          <h3>Step 1 - Start your application</h3>
+                                                            <h3>Step 1 - Start your application</h3>
                                                         </div>
                                                         <ul>
                                                             <li>
@@ -1353,46 +1791,46 @@
                                                         </div>
                                                         <ul>
                                                             <li>
-                                                            <p>You are allocated a Trademark Officer</p>
+                                                                <p>You are allocated a Trademark Officer</p>
                                                             </li>
                                                             <li>
-                                                            <strong><p>Pay for services</p></strong>
+                                                                <strong><p>Pay for services</p></strong>
                                                             </li>
                                                             <li>
-                                                            <p>Complete product documentation</p>
+                                                                <p>Complete product documentation</p>
                                                             </li>
                                                         </ul>
                                                         <div class="stage">
                                                             <img src="https://www.vegansociety.com/sites/default/files/uploads/Icons-clock-60x60.jpg">
-                                                          <h3>Step 3 - Audit review</h3>
+                                                            <h3>Step 3 - Audit review</h3>
                                                         </div>
                                                         <ul>
                                                             <li>
-                                                            <p>Trademark Officer checks the products ingredients</p>
+                                                                <p>Trademark Officer checks the products ingredients</p>
                                                             </li>
                                                             <li>
-                                                            <p>Work with your officer on any queries</p>
+                                                                <p>Work with your officer on any queries</p>
                                                             </li>
                                                             <li>
-                                                            <strong><p>Products approved</p></strong>
+                                                                <strong><p>Products approved</p></strong>
                                                             </li>
                                                         </ul>
                                                         <div class="stage">
                                                             <img src="https://www.vegansociety.com/sites/default/files/uploads/Icons-TM-60x60.jpg">
-                                                          <h3>Step 4 - Finish registration</h3>
+                                                            <h3>Step 4 - Finish registration</h3>
                                                         </div>
                                                         <ul>
                                                             <li>
-                                                            <p>Sign and return the Licence Agreement</p>
+                                                                <p>Sign and return the Licence Agreement</p>
                                                             </li>
                                                             <li>
-                                                            <strong><p>Receive your Certificate of Registration</p></strong>
+                                                                <strong><p>Receive your Certificate of Registration</p></strong>
                                                             </li>
                                                             <li>
-                                                            <p>Use the Vegan Trademark on your packaging and in your marketing</p>
+                                                                <p>Use the Vegan Trademark on your packaging and in your marketing</p>
                                                             </li>
                                                             <li>
-                                                            <p>Use our Marketing Toolkit</p>
+                                                                <p>Use our Marketing Toolkit</p>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -1439,15 +1877,18 @@
                                                         Who can apply for the Vegan Trademark?
                                                     </button>
                                                     <div class="volunteer-collapse-content">
-                                                        <p>We register any company that produces vegan-friendly products. We aim to make the Vegan Trademark accessible to everyone whose products fit our specific criteria. This includes products containing no animal ingredients, vegan processing aids used in manufacturing, and ingredients that have never been tested on animals on behalf of the manufacturer.</p>
+                                                        <p>We register any company that produces vegan-friendly products. We aim to make the Vegan Trademark accessible to everyone whose products fit our specific criteria. This includes products containing
+                                                            no animal ingredients, vegan processing aids used in manufacturing, and ingredients that have never been tested on animals on behalf of the manufacturer.</p>
                                                     </div>
                                                     <button type="button" class="collapse-header">
                                                         <span class="caret"></span>
                                                         Why register with the Vegan Trademark?
                                                     </button>
                                                     <div class="volunteer-collapse-content">
-                                                        <p>We offer a unique product checking service, with years of experience, to ensure that your product’s vegan claim is valid and authentic. As the charity that coined the term <strong>vegan</strong>, we are the experts in this field. </p>
-                                                        <p>Our Vegan Trademark holders benefit in a multitude of ways. From credible brand awareness, market insights, and access to the vegan community to discounted advertising opportunities, social media promotion, competitions, and product exposure at events. </p>
+                                                        <p>We offer a unique product checking service, with years of experience, to ensure that your product’s vegan claim is valid and authentic. As the charity that coined the term <strong>vegan</strong>,
+                                                            we are the experts in this field. </p>
+                                                        <p>Our Vegan Trademark holders benefit in a multitude of ways. From credible brand awareness, market insights, and access to the vegan community to discounted advertising opportunities, social media
+                                                            promotion, competitions, and product exposure at events. </p>
                                                         <p>Need to know more about the benefits of working with the Vegan Trademark? Watch our <a href="https://attendee.gotowebinar.com/recording/8495080134491477775" target="_blank">webinar</a>.</p>
                                                     </div>
                                                     <button type="button" class="collapse-header">
@@ -1455,7 +1896,8 @@
                                                         How do I register with the Vegan Trademark?
                                                     </button>
                                                     <div class="volunteer-collapse-content">
-                                                        <p>Our experienced officers will guide you through the four-step process of registering your products with the Vegan Trademark. If you'd like more details about registering with us, please watch our <a href="https://www.gotostage.com/channel/e2dfd3af6a63409c9cb331e3978d55c1/recording/5ce705b33f144d8fadb3c3c40ae7c020/watch" target="_blank">Introduction Webinar</a></p>
+                                                        <p>Our experienced officers will guide you through the four-step process of registering your products with the Vegan Trademark. If you'd like more details about registering with us, please watch our
+                                                            <a href="https://www.gotostage.com/channel/e2dfd3af6a63409c9cb331e3978d55c1/recording/5ce705b33f144d8fadb3c3c40ae7c020/watch" target="_blank">Introduction Webinar</a></p>
                                                         <p>Select the 'Apply now' tab to get started or if you need some help, choose the 'Ask a question' tab.</p>
                                                     </div>
                                                     <button type="button" class="collapse-header">
@@ -1463,9 +1905,12 @@
                                                         Do you approve companies or products?
                                                     </button>
                                                     <div class="volunteer-collapse-content">
-                                                        <p>The Vegan Society sees excellent value in registering products instead of companies. We've found that it encourages companies to further develop and improve the labelling on vegan options in their wider portfolio of products.</p>
-                                                        <p>By encouraging the development of vegan options, and improving the labelling on suitable products, we have helped to make a vegan lifestyle even more accessible, appealing and often more affordable, too. In turn, registration further promotes 'vegan' as a household name.</p>
-                                                        <p>It is important to note that The Vegan Society does not endorse whole companies. We only register individual products. Often, companies will also sell products that contain animal-derived ingredients in their ranges. We encourage all individuals to make informed choices about companies that they wish to support. </p>
+                                                        <p>The Vegan Society sees excellent value in registering products instead of companies. We've found that it encourages companies to further develop and improve the labelling on vegan options in their
+                                                            wider portfolio of products.</p>
+                                                        <p>By encouraging the development of vegan options, and improving the labelling on suitable products, we have helped to make a vegan lifestyle even more accessible, appealing and often more affordable,
+                                                            too. In turn, registration further promotes 'vegan' as a household name.</p>
+                                                        <p>It is important to note that The Vegan Society does not endorse whole companies. We only register individual products. Often, companies will also sell products that contain animal-derived ingredients
+                                                            in their ranges. We encourage all individuals to make informed choices about companies that they wish to support. </p>
                                                     </div>
                                                     <button type="button" class="collapse-header">
                                                         <span class="caret"></span>
@@ -1489,7 +1934,7 @@
                                                     </button>
                                                     <div class="volunteer-collapse-content">
                                                         <p>Please allow between 30 and 60 working days. This is dependent on the complexity of your application and the efficiency of communication channels.</p>
-                                                        
+
                                                         <p>If you have any deadlines, please let us know and we will always do our best to work with you to meet these. We are happy to work directly with your suppliers on the registration.
                                                         </p>
                                                     </div>
@@ -1516,7 +1961,8 @@
                                                                     </span>
                                                                 </div>
                                                                 <div class="answer-input">
-                                                                    <input aria-label="Your first name" aria-required="true" aria-invalid="false" leadfield="firstname" contactfield="" class="maxSize1 width100per" type="text" id="f_7ebc4eb98a47ec118c6200224841b5ea" name="f_7ebc4eb98a47ec118c6200224841b5ea" maxlength="50" style="font-family:Trebuchet MS;" value="">
+                                                                    <input aria-label="Your first name" aria-required="true" aria-invalid="false" leadfield="firstname" contactfield="" class="maxSize1 width100per" type="text" id="f_7ebc4eb98a47ec118c6200224841b5ea" name="f_7ebc4eb98a47ec118c6200224841b5ea" maxlength="50"
+                                                                        style="font-family:Trebuchet MS;" value="">
                                                                 </div>
                                                             </div>
                                                             <div class="answer-wrapper d-flex">
@@ -1526,7 +1972,8 @@
                                                                     </span>
                                                                 </div>
                                                                 <div class="answer-input">
-                                                                    <input aria-label="Your first name" aria-required="true" aria-invalid="false" leadfield="firstname" contactfield="" class="maxSize1 width100per" type="text" id="f_7ebc4eb98a47ec118c6200224841b5ea" name="f_7ebc4eb98a47ec118c6200224841b5ea" maxlength="50" style="font-family:Trebuchet MS;" value="">
+                                                                    <input aria-label="Your first name" aria-required="true" aria-invalid="false" leadfield="firstname" contactfield="" class="maxSize1 width100per" type="text" id="f_7ebc4eb98a47ec118c6200224841b5ea" name="f_7ebc4eb98a47ec118c6200224841b5ea" maxlength="50"
+                                                                        style="font-family:Trebuchet MS;" value="">
                                                                 </div>
                                                             </div>
                                                             <div class="answer-wrapper d-flex">
@@ -1536,7 +1983,8 @@
                                                                     </span>
                                                                 </div>
                                                                 <div class="answer-input">
-                                                                    <input aria-label="Your first name" aria-required="true" aria-invalid="false" leadfield="firstname" contactfield="" class="maxSize1 width100per" type="text" id="f_7ebc4eb98a47ec118c6200224841b5ea" name="f_7ebc4eb98a47ec118c6200224841b5ea" maxlength="50" style="font-family:Trebuchet MS;" value="">
+                                                                    <input aria-label="Your first name" aria-required="true" aria-invalid="false" leadfield="firstname" contactfield="" class="maxSize1 width100per" type="text" id="f_7ebc4eb98a47ec118c6200224841b5ea" name="f_7ebc4eb98a47ec118c6200224841b5ea" maxlength="50"
+                                                                        style="font-family:Trebuchet MS;" value="">
                                                                 </div>
                                                             </div>
                                                             <div class="answer-wrapper d-flex">
@@ -1546,7 +1994,8 @@
                                                                     </span>
                                                                 </div>
                                                                 <div class="answer-input">
-                                                                    <input aria-label="Your first name" aria-required="true" aria-invalid="false" leadfield="firstname" contactfield="" class="maxSize1 width100per" type="text" id="f_7ebc4eb98a47ec118c6200224841b5ea" name="f_7ebc4eb98a47ec118c6200224841b5ea" maxlength="50" style="font-family:Trebuchet MS;" value="">
+                                                                    <input aria-label="Your first name" aria-required="true" aria-invalid="false" leadfield="firstname" contactfield="" class="maxSize1 width100per" type="text" id="f_7ebc4eb98a47ec118c6200224841b5ea" name="f_7ebc4eb98a47ec118c6200224841b5ea" maxlength="50"
+                                                                        style="font-family:Trebuchet MS;" value="">
                                                                 </div>
                                                             </div>
                                                             <div class="answer-wrapper d-flex">
@@ -1556,7 +2005,8 @@
                                                                     </span>
                                                                 </div>
                                                                 <div class="answer-input">
-                                                                    <input aria-label="Your first name" aria-required="true" aria-invalid="false" leadfield="firstname" contactfield="" class="maxSize1 width100per" type="text" id="f_7ebc4eb98a47ec118c6200224841b5ea" name="f_7ebc4eb98a47ec118c6200224841b5ea" maxlength="50" style="font-family:Trebuchet MS;" value="">
+                                                                    <input aria-label="Your first name" aria-required="true" aria-invalid="false" leadfield="firstname" contactfield="" class="maxSize1 width100per" type="text" id="f_7ebc4eb98a47ec118c6200224841b5ea" name="f_7ebc4eb98a47ec118c6200224841b5ea" maxlength="50"
+                                                                        style="font-family:Trebuchet MS;" value="">
                                                                 </div>
                                                             </div>
                                                             <div class="answer-wrapper d-flex">
@@ -1566,7 +2016,8 @@
                                                                     </span>
                                                                 </div>
                                                                 <div class="answer-input">
-                                                                    <input aria-label="Your first name" aria-required="true" aria-invalid="false" leadfield="firstname" contactfield="" class="maxSize1 width100per" type="text" id="f_7ebc4eb98a47ec118c6200224841b5ea" name="f_7ebc4eb98a47ec118c6200224841b5ea" maxlength="50" style="font-family:Trebuchet MS;" value="">
+                                                                    <input aria-label="Your first name" aria-required="true" aria-invalid="false" leadfield="firstname" contactfield="" class="maxSize1 width100per" type="text" id="f_7ebc4eb98a47ec118c6200224841b5ea" name="f_7ebc4eb98a47ec118c6200224841b5ea" maxlength="50"
+                                                                        style="font-family:Trebuchet MS;" value="">
                                                                 </div>
                                                             </div>
                                                             <div class="answer-wrapper d-flex mt-2">
@@ -1576,7 +2027,8 @@
                                                                     </span>
                                                                 </div>
                                                                 <div class="answer-input">
-                                                                    <textarea class="maxSize1 width100per" onkeypress="javascript:TextareaMaxLength(this, 1000);" onkeyup="javascript:TextareaMaxLength(this, 1000);" id="f_39306812ad77ec118d216045bd0f2e11" name="f_39306812ad77ec118d216045bd0f2e11" aria-label="Query details" aria-required="true" aria-invalid="false" style="height:100px; font-family:Trebuchet MS;" cols="10" rows="10"></textarea>
+                                                                    <textarea class="maxSize1 width100per" onkeypress="javascript:TextareaMaxLength(this, 1000);" onkeyup="javascript:TextareaMaxLength(this, 1000);" id="f_39306812ad77ec118d216045bd0f2e11" name="f_39306812ad77ec118d216045bd0f2e11" aria-label="Query details"
+                                                                        aria-required="true" aria-invalid="false" style="height:100px; font-family:Trebuchet MS;" cols="10" rows="10"></textarea>
                                                                 </div>
                                                             </div>
                                                             <div class="answer-wrapper d-flex mt-2">
@@ -1607,7 +2059,8 @@
                                                             </div>
                                                             <div class="answer-wrapper d-flex mt-5">
                                                                 <div class="answer-headline">
-                                                                    <input class="floatLeft" id="f_25bd28f6b847ec118c6200224841be52" name="f_25bd28f6b847ec118c6200224841be52" type="checkbox" aria-label="I am happy to hear about marketing opportunities to support my business" aria-required="true" aria-invalid="false" leadfield="msdyn_gdproptout" contactfield="">
+                                                                    <input class="floatLeft" id="f_25bd28f6b847ec118c6200224841be52" name="f_25bd28f6b847ec118c6200224841be52" type="checkbox" aria-label="I am happy to hear about marketing opportunities to support my business" aria-required="true" aria-invalid="false" leadfield="msdyn_gdproptout"
+                                                                        contactfield="">
                                                                     <span style="font-family:Trebuchet MS; font-weight:normal; font-size:13px; color:#FFFFFF;">I am happy to hear about marketing opportunities to support my business * </span>
                                                                 </div>
                                                             </div>
@@ -1650,8 +2103,10 @@
                                     </div>
                                 </section>
                             </div>
-                        </div><!--
-                        --><aside class="page-sidebar">
+                        </div>
+                        <!--
+                        -->
+                        <aside class="page-sidebar">
                             <div class="side-nav">
                                 <div class="page-content page-side-menu">
                                     <section class="side-menu">
@@ -1684,7 +2139,8 @@
                             <div class="side-banner">
                                 <div class="page-content page-side-banner">
                                     <div class="side-banner-inner">
-                                        <div class="side-banner-content"> <!-- abs-->
+                                        <div class="side-banner-content">
+                                            <!-- abs-->
                                             <div class="banner-content-wrapper">
                                                 <div class="banner-content">
                                                     <div class="banner-content-field">
@@ -1710,7 +2166,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="side-banner-content"> <!-- abs-->
+                                        <div class="side-banner-content">
+                                            <!-- abs-->
                                             <div class="banner-content-wrapper">
                                                 <div class="banner-content">
                                                     <div class="banner-content-field">
@@ -1758,7 +2215,7 @@
                 </div>
             </section>
 
-            
+
             <footer class="site-footer">
                 <div class="tilted-container">
                     <div class="container">
@@ -1812,7 +2269,7 @@
         </div>
     </div>
 
-
+    <div id="mb-blocker"></div>
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <!-- Bootstrap JavaScript -->
@@ -1821,5 +2278,6 @@
     <script src="owlcarousel/dist/owl.carousel.min.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="js/app.js"></script>
-  </body>
+</body>
+
 </html>

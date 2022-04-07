@@ -1,22 +1,452 @@
 <!DOCTYPE html>
 <html lang="en" class="">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>The Vegan Society |</title>
     <link rel="icon" type="image/x-icon" href="img/default/favicon_0.ico" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="owlcarousel/dist/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="owlcarousel/dist/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="owlcarousel/dist/assets/owl.theme.default.min.css">
-    <link href="css/home.css" rel="stylesheet"/>
-    <link href="fonts/museo-sans/museo-sans-style.css" rel="stylesheet"/>
-    <link href="fonts/museo-slab/museo-slab-style.css" rel="stylesheet"/>
-  </head>
-  <body class="home">
+    <link href="css/home.css" rel="stylesheet" />
+    <link href="fonts/museo-sans/museo-sans-style.css" rel="stylesheet" />
+    <link href="fonts/museo-slab/museo-slab-style.css" rel="stylesheet" />
+</head>
 
-    <nav id="mobile-nav"></nav>
+<body class="home">
+
+    <nav id="mobile-nav" class="mb-menu">
+        <div class="mb-panels">
+            <div class="mb-panel mb-open" id="mb-1">
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-2" data-parent="#mb-1"></a>
+                        <a href="news.html" title="News">News</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-8" data-parent="#mb-1"></a>
+                        <a href="go-vegan.html" title="Go Vegan">Go Vegan</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-14" data-parent="#mb-1"></a>
+                        <a href="get-involved.html" title="Get Involved">Get Involved</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-15" data-parent="#mb-1"></a>
+                        <a href="lifestyle.html" title="Get Involved">Lifestyle</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-16" data-parent="#mb-1"></a>
+                        <a href="the-vegan-trademark.html" title="Get Involved">Vegan Trademark</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-17" data-parent="#mb-1"></a>
+                        <a href="shop.html" title="Get Involved">Shop</a>
+                    </li>
+
+                    <li>
+                        <a href="" title="Get Involved">Donate</a>
+                    </li>
+                    <li>
+                        <a href="" title="Get Involved">Join</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-2">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-1" data-parent="#mb-2"></a>
+                    <a class="mb-title">News</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="news.html" title="News">News</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Go Vegan">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-3" data-parent="#mb-2"></a>
+                        <a href="" title="Get Involved">Events</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-4" data-parent="#mb-2"></a>
+                        <a href="" title="Get Involved">Competitions</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-5" data-parent="#mb-2"></a>
+                        <a href="" title="Get Involved">Media</a>
+                    </li>
+                    <li>
+                        <a href="" class="mb-next"></a>
+                        <a href="" title="Get Involved">Market insights</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-3">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-2" data-parent="#mb-3"></a>
+                    <a class="mb-title">Events</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="" title="News">Past events</a>
+                    </li>
+                    <li>
+                        <a href="" title="Go Vegan">Submit an event</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-4">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-2" data-parent="#mb-4"></a>
+                    <a class="mb-title">Competitions</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="" title="News">Win a case of vegan kefir drinks by PiQi</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-5">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-2" data-parent="#mb-5"></a>
+                    <a class="mb-title">Media</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="" title="News">Press releases</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-6" data-parent="#mb-5"></a>
+                        <a href="" title="Get Involved">Statistics</a>
+                    </li>
+                    <li>
+                        <a href="" title="News">Spokespeople</a>
+                    </li>
+                    <li>
+                        <a href="" title="News">Share your story</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-6">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-5" data-parent="#mb-6"></a>
+                    <a class="mb-title">Statistics</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="">Treatment of animals</a>
+                    </li>
+                    <li>
+                        <a href="">Worldwide growth of veganism</a>
+                    </li>
+                    <li>
+                        <a href="">Environment and sustainability</a>
+                    </li>
+                    <li>
+                        <a href="">Business and food sales</a>
+                    </li>
+                    <li>
+                        <a href="the-vegan-trademark.html">The Vegan Trademark</a>
+                    </li>
+                    <li>
+                        <a href="">Health</a>
+                    </li>
+                    <li>
+                        <a href="">Beauty and household</a>
+                    </li>
+                    <li>
+                        <a href="">Fashion and textiles</a>
+                    </li>
+                    <li>
+                        <a href="">Families and children</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-7">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-2" data-parent="#mb-7"></a>
+                    <a class="mb-title">Market insights</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="">Market Reports</a>
+                    </li>
+                    <li>
+                        <a href="">Personalised insight reports</a>
+                    </li>
+                    <li>
+                        <a href="">Vegan insight panel</a>
+                    </li>
+                    <li>
+                        <a href="">Market news</a>
+                    </li>
+                    <li>
+                        <a href="">Plant milk market</a>
+                    </li>
+                    <li>
+                        <a href="">Meat alternative market</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-8">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-1" data-parent="#mb-8"></a>
+                    <a class="mb-title">Go Vegan</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="" title="News">Definition of veganism</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-9" data-parent="#mb-8"></a>
+                        <a href="" title="Get Involved">Why go vegan?</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-12" data-parent="#mb-8"></a>
+                        <a href="" title="Get Involved">How to go vegan</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-13" data-parent="#mb-8"></a>
+                        <a href="" title="Get Involved">Take the Vegan Pledge</a>
+                    </li>
+                    <li>
+                        <a href="" title="Get Involved">VeGuide App - Go Vegan the Easy Way</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-9">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-8" data-parent="#mb-9"></a>
+                    <a class="mb-title">Why go vegan?</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-10" data-parent="#mb-9"></a>
+                        <a href="" title="Get Involved">How many animals would I save?</a>
+                    </li>
+                    <li>
+                        <a href="">Health</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next" data-target="#mb-11" data-parent="#mb-9"></a>
+                        <a href="" title="Get Involved">Environment</a>
+                    </li>
+                    <li>
+                        <a href="">The honey industry</a>
+                    </li>
+                    <li>
+                        <a href="">The dairy industry</a>
+                    </li>
+                    <li>
+                        <a href="">The egg industry</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-10">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-9" data-parent="#mb-10"></a>
+                    <a class="mb-title">How many animals would I save?</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="">About the Veganalyser</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-11">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-9" data-parent="#mb-11"></a>
+                    <a class="mb-title">Environment</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="">Food security</a>
+                    </li>
+                    <li>
+                        <a href="">Water requirements</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-12">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-8" data-parent="#mb-12"></a>
+                    <a class="mb-title">How to go vegan</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="">Meal planning</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-13">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-8" data-parent="#mb-13"></a>
+                    <a class="mb-title">Take the Vegan Pledge</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="">Pledge testimonials</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-14">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-1" data-parent="#mb-14"></a>
+                    <a class="mb-title">Get Involved</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Campaigns</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Donate</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Raise funds</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Volunteer</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Grants</a>
+                    </li>
+                    <li>
+                        <a href="#">Join our newsletter</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Our work with policy makers</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Research</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">International Rights Network</a>
+                    </li>
+                    <li>
+                        <a href="#">Veganise your town</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Business</a>
+                    </li>
+                    <li>
+                        <a href="#">Become a member</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-15">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-1" data-parent="#mb-15"></a>
+                    <a class="mb-title">Lifestyle</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Nutrition and health</a>
+                    </li>
+                    <li>
+                        <a href="#">Recipes</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Fashion</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Food and drink  </a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">School</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Shopping</a>
+                    </li>
+                    <li>
+                        <a href="#">Social</a>
+                    </li>
+                    <li>
+                        <a href="#">Travel</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Publications and video</a>
+                    </li>
+                    <li>
+                        <a href="#">General FAQs</a>
+                    </li>
+                    <li>
+                        <a href="#">Family</a>
+                    </li>
+                    <li>
+                        <a href="#">Teen Hub</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-16">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-1" data-parent="#mb-16"></a>
+                    <a class="mb-title">Vegan Trademark</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Nutrition and health</a>
+                    </li>
+                    <li>
+                        <a href="#">Blogs and news</a>
+                    </li>
+                    <li>
+                        <a href="#">Corporate engagement</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Vegan Trademark standards</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mb-next"></a>
+                        <a href="" title="Get Involved">Vegan Trademark events</a>
+                    </li>
+                    <li>
+                        <a href="#">FAQs</a>
+                    </li>
+                    <li>
+                        <a href="#">Trademarked products search</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-panel mb-hasnavbar" id="mb-17">
+                <div class="mb-navbar">
+                    <a class="mb-btn mb-prev" data-target="#mb-1" data-parent="#mb-17"></a>
+                    <a class="mb-title">Shop</a>
+                </div>
+                <ul class="mb-menu-nav">
+                    <li>
+                        <a href="#">VEG 1 Vegan Supplements</a>
+                    </li>
+                    <li>
+                        <a href="#">Gifts & Accessories</a>
+                    </li>
+                    <li>
+                        <a href="#">Donate now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <div class="site dt-site mb-site">
         <div class="site-container">
@@ -74,13 +504,13 @@
                                                                                         Blog
                                                                                     </a>
                                                                                 </li>
-                                                                            
+
                                                                                 <li class="megamenu-item">
                                                                                     <a href="" title="Events">
                                                                                         Events
                                                                                     </a>
                                                                                 </li>
-                                                                            
+
                                                                                 <li class="megamenu-item">
                                                                                     <a href="" title="Competitions">
                                                                                         Competitions
@@ -235,7 +665,7 @@
                                                                                         </div>
                                                                                     </div>
                                                                                 </li>
-                                                                            
+
                                                                                 <li class="megamenu-item-submenu">
                                                                                     <a href="" title="Events">
                                                                                         How to go vegan
@@ -254,7 +684,7 @@
                                                                                         </div>
                                                                                     </div>
                                                                                 </li>
-                                                                            
+
                                                                                 <li class="megamenu-item">
                                                                                     <a href="" title="Competitions">
                                                                                         Take the Vegan Pledge
@@ -328,7 +758,7 @@
                                                                                         </div>
                                                                                     </div>
                                                                                 </li>
-                                                                            
+
                                                                                 <li class="megamenu-item-submenu">
                                                                                     <a href="" title="Events">
                                                                                         Raise funds
@@ -367,7 +797,7 @@
                                                                                         </div>
                                                                                     </div>
                                                                                 </li>
-                                                                            
+
                                                                                 <li class="megamenu-item-submenu">
                                                                                     <a href="" title="Events">
                                                                                         Volunteer
@@ -450,7 +880,7 @@
                                                                                         </div>
                                                                                     </div>
                                                                                 </li>
-                                                                            
+
                                                                                 <li class="megamenu-item-submenu">
                                                                                     <a href="" title="Events">
                                                                                         Research
@@ -528,7 +958,7 @@
                                                                                         </div>
                                                                                     </div>
                                                                                 </li>
-                                                                                
+
                                                                                 <li class="megamenu-item">
                                                                                     <a href="">
                                                                                         Veganise your town
@@ -634,14 +1064,14 @@
                                                                                                 </ul>
                                                                                             </div>
                                                                                         </div>
-                                                                                    </div>  
+                                                                                    </div>
                                                                                 </li>
                                                                                 <li class="megamenu-item">
                                                                                     <a href="">
                                                                                         Recipes
                                                                                     </a>
                                                                                 </li>
-                                                                            
+
                                                                                 <li class="megamenu-item-submenu">
                                                                                     <a href="" title="Events">
                                                                                         Fashion
@@ -665,7 +1095,7 @@
                                                                                         </div>
                                                                                     </div>
                                                                                 </li>
-                                                                            
+
                                                                                 <li class="megamenu-item-submenu">
                                                                                     <a href="" title="Events">
                                                                                         Food and drink
@@ -790,7 +1220,7 @@
                                                                                         </div>
                                                                                     </div>
                                                                                 </li>
-                                                                                
+
                                                                                 <li class="megamenu-item">
                                                                                     <a href="">
                                                                                         General FAQs
@@ -802,7 +1232,7 @@
                                                                                         Family
                                                                                     </a>
                                                                                 </li>
-                                                                                
+
                                                                                 <li class="megamenu-item">
                                                                                     <a href="">
                                                                                         Teen Hub
@@ -889,7 +1319,7 @@
                             </a>
                         </div>
                     </div>
-                    
+
                 </div>
             </header>
 
@@ -922,25 +1352,25 @@
                                                     <span class="banner-tag">
                                                         Join
                                                     </span>
-                                                </div>
-                                            </span>
                                         </div>
-                                        <div class="item-title">
-                                            <h2>
-                                                <a href="">Become a member</a>
-                                            </h2>
-                                        </div>
-                                        <div class="item-body">
-                                            <p>
-                                                #JoinTheVeganSociety to change society. Stop animal suffering, help save our planet, as a healthier way to live – from just £2 a month.
-                                            </p>
-                                        </div>
+                                        </span>
+                                    </div>
+                                    <div class="item-title">
+                                        <h2>
+                                            <a href="">Become a member</a>
+                                        </h2>
+                                    </div>
+                                    <div class="item-body">
+                                        <p>
+                                            #JoinTheVeganSociety to change society. Stop animal suffering, help save our planet, as a healthier way to live – from just £2 a month.
+                                        </p>
                                     </div>
                                 </div>
-                                <div class="item">
-                                    <div class="item-holder">
-                                        <div class="item-thumb">
-                                            <span>
+                            </div>
+                            <div class="item">
+                                <div class="item-holder">
+                                    <div class="item-thumb">
+                                        <span>
                                                 <div class="banner-thumb">
                                                     <a href="">
                                                         <img src="img/media/banner/Carousel-Campaign.jpg" alt="">
@@ -949,25 +1379,25 @@
                                                     <span class="banner-tag">
                                                         Campaign
                                                     </span>
-                                                </div>
-                                            </span>
-                                        </div>
-                                        <div class="item-title">
-                                            <h2>
-                                                <a href="">Plate Up for the Planet</a>
-                                            </h2>
-                                        </div>
-                                        <div class="item-body">
-                                            <p>
-                                                Have a look at our Plate Up for the Planet campaign which shows that eating vegan is one of the best ways to protect the planet.
-                                            </p>
-                                        </div>
                                     </div>
+                                    </span>
                                 </div>
-                                <div class="item">
-                                    <div class="item-holder">
-                                        <div class="item-thumb">
-                                            <span>
+                                <div class="item-title">
+                                    <h2>
+                                        <a href="">Plate Up for the Planet</a>
+                                    </h2>
+                                </div>
+                                <div class="item-body">
+                                    <p>
+                                        Have a look at our Plate Up for the Planet campaign which shows that eating vegan is one of the best ways to protect the planet.
+                                    </p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-holder">
+                            <div class="item-thumb">
+                                <span>
                                                 <div class="banner-thumb">
                                                     <a href="">
                                                         <img src="img/media/banner/Carousel-Supplements.jpg" alt="">
@@ -976,286 +1406,287 @@
                                                     <span class="banner-tag">
                                                         Shop
                                                     </span>
-                                                </div>
-                                            </span>
-                                        </div>
-                                        <div class="item-title">
-                                            <h2>
-                                                <a href="">VEG 1 Vegan Supplements</a>
-                                            </h2>
-                                        </div>
-                                        <div class="item-body">
-                                            <p>
-                                                Our VEG 1 multivitamin is now 100% plastic-free, from the pot it comes in to the materials used for postage. Shop now by clicking here
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
-                        </section>
-                        <section class="page-banner-right">
-                            <div class="banner-blog-wrapper">
-                                <div class="banner-blog">
-                                    <div class="blog-thumbnail">
-                                        <a href="">
-                                            <img src="img/media/banner/7.webp" alt="">
-                                        </a>
-                                        <span class="banner-tag">
-                                            Blog
-                                        </span>
-                                    </div>
-                                    <div class="blog-title">
-                                        <h2>
-                                            <a href="/news/blog/VEG12022/what-do-staff-think">The Vegan Society Staff share insight into VEG 1 multivitamin </a>
-                                        </h2>
-                                    </div>
-                                    <div class="blog-body">
-                                        <p>
-                                            With any job, there are perks and benefits that come with working for your chosen organisation. At The Vegan Society, there are countless, from...
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="banner-blog">
-                                    <div class="blog-thumbnail">
-                                        <a href="">
-                                            <img src="img/media/banner/Perfume_Blog-Thumbnail.jpg" alt="">
-                                        </a>
-                                        <span class="banner-tag">
-                                            Blog
-                                        </span>
-                                    </div>
-                                    <div class="blog-title">
-                                        <h2>
-                                            <a href="/vegansociety.com/news/blog/TM2022/vegan-perfume-swaps">Vegan Perfume Swaps – Find Your New Signature Scent</a>
-                                        </h2>
-                                    </div>
-                                    <div class="blog-body">
-                                        <p>
-                                            Animal-free perfume swaps to explore and delight in this Spring/Summer!
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
+                            </span>
+                        </div>
+                        <div class="item-title">
+                            <h2>
+                                <a href="">VEG 1 Vegan Supplements</a>
+                            </h2>
+                        </div>
+                        <div class="item-body">
+                            <p>
+                                Our VEG 1 multivitamin is now 100% plastic-free, from the pot it comes in to the materials used for postage. Shop now by clicking here
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="container">
-                    <div class="page-content page-content-middle">
-                        <section class="page-app d-none d-md-block">
-                            <h2 class="app-title">VeGuide</h2>
-                            <p>
-                                Try our VeGuide app, it's everything you need to start your vegan journey.
-                            </p>
-                            <p>
-                                <a href="" class="btn-link">Download</a>
-                            </p>
-                            <div class="free-label">
-                                <span>Free</span>
-                            </div>
-                        </section>
-                        <section class="newsnblogs articles">
-                            <h2 class="section-title">Latest News & Blogs</h2>
-                            <div class="articles-wrapper">
-                                <div class="article">
-                                    <div class="blog-thumbnail">
-                                        <a href="">
-                                            <img src="img/media/blogs/kale crisps in bowl.jpg" alt="">
-                                        </a>
-                                        <span class="banner-tag">
-                                            News
+        </div>
+        </section>
+        <section class="page-banner-right">
+            <div class="banner-blog-wrapper">
+                <div class="banner-blog">
+                    <div class="blog-thumbnail">
+                        <a href="">
+                            <img src="img/media/banner/7.webp" alt="">
+                        </a>
+                        <span class="banner-tag">
+                                            Blog
                                         </span>
-                                    </div>
-                                    <div class="blog-title">
-                                        <h2>
-                                            <a href="/news/news/vegan-society-praises-oxfordshire-council-new-vegan-policy">The Vegan Society praises Oxfordshire Council for new vegan policy</a>
-                                        </h2>
-                                    </div>
-                                    <div class="blog-body">
-                                        <p>
-                                            The Vegan Society praises Oxfordshire<br> County Council for introducing a new plant-based policy.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="article">
-                                    <div class="blog-thumbnail">
-                                        <a href="">
-                                            <img src="img/media/blogs/bfc_logo_thumb.jpg" alt="">
-                                        </a>
-                                        <span class="banner-tag">
-                                            News
-                                        </span>
-                                    </div>
-                                    <div class="blog-title">
-                                        <h2>
-                                            <a href="/news/news/bamboo-flooring-company-becomes-first-register-vegan-products">Bamboo Flooring Company becomes first to register vegan products</a>
-                                        </h2>
-                                    </div>
-                                    <div class="blog-body">
-                                        <p>
-                                            A Leicester-based flooring company has become the first in the world to register vegan floor products with The Vegan Society’s Vegan Trademark.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="article">
-                                    <div class="blog-thumbnail">
-                                        <a href="">
-                                            <img src="img/media/blogs/rich dog for thumbnail.jpg" alt="">
-                                        </a>
-                                        <span class="banner-tag">
-                                            News
-                                        </span>
-                                    </div>
-                                    <div class="blog-title">
-                                        <h2>
-                                            <a href="/news/news/new-report-shows-rise-interest-vegan-food-cats-and-dogs">New report shows rise in interest in vegan food for cats and dogs</a>
-                                        </h2>
-                                    </div>
-                                    <div class="blog-body">
-                                        <p>
-                                            A huge number of Brits would consider purchasing vegan food for their cats and dogs.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section class="getinvolved articles">
-                            <h2 class="section-title">Get Involved</h2>
-                            <div class="articles-wrapper">
-                                <div class="article">
-                                    <div class="blog-thumbnail">
-                                        <a href="">
-                                            <img src="img/media/blogs/Systems-Report-Thumbnail-blue_0.jpg" alt="">
-                                        </a>
-                                        <span class="banner-tag">
-                                            Campaign
-                                        </span>
-                                    </div>
-                                    <div class="blog-title">
-                                        <h2>
-                                            <a href="/get-involved/campaigns/planting-value-food-system">Planting Value in the Food System</a>
-                                        </h2>
-                                    </div>
-                                    <div class="blog-body">
-                                        <p>
-                                            We've launched a new report showcasing our vision for a fairer food future. Visit the report website to explore the ideas and download the report.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="article">
-                                    <div class="blog-thumbnail">
-                                        <a href="">
-                                            <img src="img/media/blogs/TVS_C4E_Thumbnail_724x352.webp" alt="">
-                                        </a>
-                                        <span class="banner-tag">
-                                            Campaign
-                                        </span>
-                                    </div>
-                                    <div class="blog-title">
-                                        <h2>
-                                            <a href="/take-action/campaigns/catering-everyone">Catering for Everyone</a>
-                                        </h2>
-                                    </div>
-                                    <div class="blog-body">
-                                        <p>
-                                            Our aim is to get more and better vegan options in the public sector. We want to see every school, hospital, prison and council menu contain good...
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="article">
-                                    <div class="blog-thumbnail">
-                                        <a href="">
-                                            <img src="img/media/blogs/Vol_724x352_1_0_0.jpg" alt="">
-                                        </a>
-                                        <span class="banner-tag">
-                                            Campaign
-                                        </span>
-                                    </div>
-                                    <div class="blog-title">
-                                        <h2>
-                                            <a href="/get-involved/volunteering-vegan-society">Volunteering with The Vegan Society</a>
-                                        </h2>
-                                    </div>
-                                    <div class="blog-body">
-                                        <p>
-                                            There are a variety of ways to volunteer with us to help us promote veganism worldwide.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
                     </div>
-                </div>
-            </section>
-
-            <section class="newsletter-signup">
-                <div class="container">
-                    <div class="news-signup">
+                    <div class="blog-title">
                         <h2>
-                            Sign-up for our newsletter
+                            <a href="/news/blog/VEG12022/what-do-staff-think">The Vegan Society Staff share insight into VEG 1 multivitamin </a>
                         </h2>
+                    </div>
+                    <div class="blog-body">
                         <p>
-                            Join our newsletter to receive monthly competitions, offers and information on all things vegan.
+                            With any job, there are perks and benefits that come with working for your chosen organisation. At The Vegan Society, there are countless, from...
                         </p>
+                    </div>
+                </div>
+                <div class="banner-blog">
+                    <div class="blog-thumbnail">
+                        <a href="">
+                            <img src="img/media/banner/Perfume_Blog-Thumbnail.jpg" alt="">
+                        </a>
+                        <span class="banner-tag">
+                                            Blog
+                                        </span>
+                    </div>
+                    <div class="blog-title">
+                        <h2>
+                            <a href="/vegansociety.com/news/blog/TM2022/vegan-perfume-swaps">Vegan Perfume Swaps – Find Your New Signature Scent</a>
+                        </h2>
+                    </div>
+                    <div class="blog-body">
                         <p>
-                            <a class="btn-link" href="/take-action/join-our-newsletter">Join</a>
+                            Animal-free perfume swaps to explore and delight in this Spring/Summer!
                         </p>
-                        <img class="newsletter" src="img/default/newsletter-email-mockup.webp" alt="Email Newsletter">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    </div>
+    <div class="container">
+        <div class="page-content page-content-middle">
+            <section class="page-app d-none d-md-block">
+                <h2 class="app-title">VeGuide</h2>
+                <p>
+                    Try our VeGuide app, it's everything you need to start your vegan journey.
+                </p>
+                <p>
+                    <a href="" class="btn-link">Download</a>
+                </p>
+                <div class="free-label">
+                    <span>Free</span>
+                </div>
+            </section>
+            <section class="newsnblogs articles">
+                <h2 class="section-title">Latest News & Blogs</h2>
+                <div class="articles-wrapper">
+                    <div class="article">
+                        <div class="blog-thumbnail">
+                            <a href="">
+                                <img src="img/media/blogs/kale crisps in bowl.jpg" alt="">
+                            </a>
+                            <span class="banner-tag">
+                                            News
+                                        </span>
+                        </div>
+                        <div class="blog-title">
+                            <h2>
+                                <a href="/news/news/vegan-society-praises-oxfordshire-council-new-vegan-policy">The Vegan Society praises Oxfordshire Council for new vegan policy</a>
+                            </h2>
+                        </div>
+                        <div class="blog-body">
+                            <p>
+                                The Vegan Society praises Oxfordshire<br> County Council for introducing a new plant-based policy.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="blog-thumbnail">
+                            <a href="">
+                                <img src="img/media/blogs/bfc_logo_thumb.jpg" alt="">
+                            </a>
+                            <span class="banner-tag">
+                                            News
+                                        </span>
+                        </div>
+                        <div class="blog-title">
+                            <h2>
+                                <a href="/news/news/bamboo-flooring-company-becomes-first-register-vegan-products">Bamboo Flooring Company becomes first to register vegan products</a>
+                            </h2>
+                        </div>
+                        <div class="blog-body">
+                            <p>
+                                A Leicester-based flooring company has become the first in the world to register vegan floor products with The Vegan Society’s Vegan Trademark.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="blog-thumbnail">
+                            <a href="">
+                                <img src="img/media/blogs/rich dog for thumbnail.jpg" alt="">
+                            </a>
+                            <span class="banner-tag">
+                                            News
+                                        </span>
+                        </div>
+                        <div class="blog-title">
+                            <h2>
+                                <a href="/news/news/new-report-shows-rise-interest-vegan-food-cats-and-dogs">New report shows rise in interest in vegan food for cats and dogs</a>
+                            </h2>
+                        </div>
+                        <div class="blog-body">
+                            <p>
+                                A huge number of Brits would consider purchasing vegan food for their cats and dogs.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
-            <footer class="site-footer">
-                <div class="tilted-container">
-                    <div class="container">
-                        <div class="social-media">
-                            <a href="https://twitter.com/TheVeganSociety" target="_blank" class="social-media__icon twitter">
-                                Twitter
+            <section class="getinvolved articles">
+                <h2 class="section-title">Get Involved</h2>
+                <div class="articles-wrapper">
+                    <div class="article">
+                        <div class="blog-thumbnail">
+                            <a href="">
+                                <img src="img/media/blogs/Systems-Report-Thumbnail-blue_0.jpg" alt="">
                             </a>
-                            <a href="https://www.facebook.com/TheVeganSociety" target="_blank" class="social-media__icon facebook">
-                                Facebook
-                            </a>
-                            <a href="https://www.youtube.com/user/TheVeganSociety" target="_blank" class="social-media__icon you-tube">
-                                YouTube
-                            </a>
-                            <a href="https://instagram.com/theoriginalvegansociety" target="_blank" class="social-media__icon instagram">
-                                Instagram
-                            </a>
+                            <span class="banner-tag">
+                                            Campaign
+                                        </span>
                         </div>
-                        <div class="footer-nav">
-                            <div class="footer-nav-inner">
-                                <div class="footer-menu">
-                                    <ul class="footer-menu-inner">
-                                        <li class="footer-link">
-                                            <a href="/contact-us" title="">Contact Us</a>
-                                        </li>
-                                        <li class="footer-link">
-                                            <a href="/news/media" title="">Media</a>
-                                        </li>
-                                        <li class="footer-link">
-                                            <a href="/about-us" title="">About Us</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <ul class="footer-menu-inner">
-                                    <li>
-                                        <a href="/sitemap" title="">Site Map</a>
-                                    </li>
-                                    <li>
-                                        <a href="/privacy-and-cookie-policy" title="">Privacy & Cookie Policy</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.vegansociety.com/jobs" title="">Jobs</a>
-                                    </li>
-                                </ul>
-                                <span class="small-info">Reg. Charity No: 279228 (England and Wales) and SC049495 (Scotland) | Company Reg. No: 01468880 and 12377572 (England and Wales) | VAT Registration No. 361 7274 92</span>
-                                <span class="small-info">Copyright © 1944 - 2022 The Vegan Society</span>
-                            </div>
+                        <div class="blog-title">
+                            <h2>
+                                <a href="/get-involved/campaigns/planting-value-food-system">Planting Value in the Food System</a>
+                            </h2>
+                        </div>
+                        <div class="blog-body">
+                            <p>
+                                We've launched a new report showcasing our vision for a fairer food future. Visit the report website to explore the ideas and download the report.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="blog-thumbnail">
+                            <a href="">
+                                <img src="img/media/blogs/TVS_C4E_Thumbnail_724x352.webp" alt="">
+                            </a>
+                            <span class="banner-tag">
+                                            Campaign
+                                        </span>
+                        </div>
+                        <div class="blog-title">
+                            <h2>
+                                <a href="/take-action/campaigns/catering-everyone">Catering for Everyone</a>
+                            </h2>
+                        </div>
+                        <div class="blog-body">
+                            <p>
+                                Our aim is to get more and better vegan options in the public sector. We want to see every school, hospital, prison and council menu contain good...
+                            </p>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="blog-thumbnail">
+                            <a href="">
+                                <img src="img/media/blogs/Vol_724x352_1_0_0.jpg" alt="">
+                            </a>
+                            <span class="banner-tag">
+                                            Campaign
+                                        </span>
+                        </div>
+                        <div class="blog-title">
+                            <h2>
+                                <a href="/get-involved/volunteering-vegan-society">Volunteering with The Vegan Society</a>
+                            </h2>
+                        </div>
+                        <div class="blog-body">
+                            <p>
+                                There are a variety of ways to volunteer with us to help us promote veganism worldwide.
+                            </p>
                         </div>
                     </div>
                 </div>
-            </footer>
+            </section>
         </div>
     </div>
+    </section>
 
+    <section class="newsletter-signup">
+        <div class="container">
+            <div class="news-signup">
+                <h2>
+                    Sign-up for our newsletter
+                </h2>
+                <p>
+                    Join our newsletter to receive monthly competitions, offers and information on all things vegan.
+                </p>
+                <p>
+                    <a class="btn-link" href="/take-action/join-our-newsletter">Join</a>
+                </p>
+                <img class="newsletter" src="img/default/newsletter-email-mockup.webp" alt="Email Newsletter">
+            </div>
+        </div>
+    </section>
+    <footer class="site-footer">
+        <div class="tilted-container">
+            <div class="container">
+                <div class="social-media">
+                    <a href="https://twitter.com/TheVeganSociety" target="_blank" class="social-media__icon twitter">
+                                Twitter
+                            </a>
+                    <a href="https://www.facebook.com/TheVeganSociety" target="_blank" class="social-media__icon facebook">
+                                Facebook
+                            </a>
+                    <a href="https://www.youtube.com/user/TheVeganSociety" target="_blank" class="social-media__icon you-tube">
+                                YouTube
+                            </a>
+                    <a href="https://instagram.com/theoriginalvegansociety" target="_blank" class="social-media__icon instagram">
+                                Instagram
+                            </a>
+                </div>
+                <div class="footer-nav">
+                    <div class="footer-nav-inner">
+                        <div class="footer-menu">
+                            <ul class="footer-menu-inner">
+                                <li class="footer-link">
+                                    <a href="/contact-us" title="">Contact Us</a>
+                                </li>
+                                <li class="footer-link">
+                                    <a href="/news/media" title="">Media</a>
+                                </li>
+                                <li class="footer-link">
+                                    <a href="/about-us" title="">About Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="footer-menu-inner">
+                            <li>
+                                <a href="/sitemap" title="">Site Map</a>
+                            </li>
+                            <li>
+                                <a href="/privacy-and-cookie-policy" title="">Privacy & Cookie Policy</a>
+                            </li>
+                            <li>
+                                <a href="https://www.vegansociety.com/jobs" title="">Jobs</a>
+                            </li>
+                        </ul>
+                        <span class="small-info">Reg. Charity No: 279228 (England and Wales) and SC049495 (Scotland) | Company Reg. No: 01468880 and 12377572 (England and Wales) | VAT Registration No. 361 7274 92</span>
+                        <span class="small-info">Copyright © 1944 - 2022 The Vegan Society</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    </div>
+
+    <div id="mb-blocker"></div>
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -1264,5 +1695,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <script src="owlcarousel/dist/owl.carousel.min.js"></script>
     <script src="js/app.js"></script>
-  </body>
+</body>
+
 </html>
