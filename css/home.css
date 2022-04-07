@@ -2177,7 +2177,7 @@ html.open-nav .mb-menu {
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 550px) {
     .site-header .container {
         height: 4em;
     }
